@@ -1,0 +1,7 @@
+{
+  "type": "region",
+  "indexable": false,
+  "name": "Chicagoland",
+  "slug": "chicagoland",
+  "description": "Greater Chicago metropolitan area including suburbs and surrounding communities"
+}

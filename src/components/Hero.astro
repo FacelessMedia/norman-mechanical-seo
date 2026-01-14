@@ -1,0 +1,161 @@
+---
+interface Props {
+  business: {
+    name: string;
+  };
+}
+
+const { business } = Astro.props;
+---
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>{business.name}</h1>
+    <p class="hero-tagline">The Services You Need at The Price You Want!</p>
+    
+    <div class="hero-actions">
+      <a href="/contact-us#form" class="btn btn-primary">REQUEST A SERVICE</a>
+      <a href="/services" class="btn btn-secondary">VIEW OUR SERVICES</a>
+    </div>
+  </div>
+  
+  <div class="hero-image">
+    <img src="/images/norman-van.webp" alt="Norman Mechanical service van" width="800" height="314" loading="eager" />
+  </div>
+  
+  <div class="hero-shape" aria-hidden="true">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+      <path d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z"/>
+    </svg>
+  </div>
+</section>
+
+<style>
+  .hero {
+    position: relative;
+    background: linear-gradient(135deg, #269041 0%, #1e7533 100%);
+    color: white;
+    padding: 180px 2rem 120px;
+    margin-top: 140px;
+    overflow: hidden;
+  }
+  
+  .hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+  
+  h1 {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 700;
+    margin: 0 0 1rem;
+    line-height: 1.2;
+  }
+  
+  .hero-tagline {
+    font-size: clamp(1.25rem, 3vw, 2rem);
+    font-weight: 500;
+    margin: 0 0 2.5rem;
+    opacity: 0.95;
+  }
+  
+  .hero-actions {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.3s;
+    border: 2px solid transparent;
+  }
+  
+  .btn-primary {
+    background: white;
+    color: #269041;
+  }
+  
+  .btn-primary:hover {
+    background: #f8f9fa;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+  
+  .btn-secondary {
+    background: transparent;
+    color: white;
+    border-color: white;
+  }
+  
+  .btn-secondary:hover {
+    background: white;
+    color: #269041;
+    transform: translateY(-2px);
+  }
+  
+  .hero-image {
+    position: absolute;
+    bottom: 60px;
+    right: 10%;
+    max-width: 600px;
+    z-index: 1;
+    opacity: 0.3;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero-shape {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+  
+  .hero-shape svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 60px;
+  }
+  
+  .hero-shape path {
+    fill: white;
+  }
+  
+  @media (max-width: 768px) {
+    .hero {
+      padding: 140px 1.5rem 100px;
+      margin-top: 80px;
+    }
+    
+    .hero-image {
+      display: none;
+    }
+    
+    .hero-actions {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .btn {
+      width: 100%;
+      max-width: 300px;
+      text-align: center;
+    }
+  }
+</style>

@@ -1,0 +1,52 @@
+{
+  "type": "city",
+  "indexable": true,
+  "name": "Hoffman Estates",
+  "slug": "hoffman-estates",
+  "state": "Illinois",
+  "stateAbbr": "IL",
+  "county": "Cook",
+  "description": "Reliable plumbing services for Hoffman Estates homes and businesses",
+  "neighborhoods": [
+    "Hoffman Estates Village Center",
+    "Stonegate",
+    "Bridlewood",
+    "Huntington",
+    "Prestwick",
+    "Barrington Lakes",
+    "Poplar Creek",
+    "Indian Meadows"
+  ],
+  "landmarks": [
+    "Sears Centre Arena",
+    "Poplar Creek Country Club",
+    "Hoffman Estates High School",
+    "Vogelei Park",
+    "Paul Douglas Forest Preserve"
+  ],
+  "localFactors": [
+    "Newer subdivisions with modern PEX plumbing systems",
+    "Many two-story homes with multiple bathrooms",
+    "Sump pump systems essential for basement protection",
+    "Hard water affects appliances and fixtures",
+    "Growing commercial corridor requires business plumbing services"
+  ],
+  "city_faqs": [
+    {
+      "question": "Do you service new construction homes in Hoffman Estates?",
+      "answer": "Yes, we service all plumbing systems in Hoffman Estates including newer homes with PEX and modern fixtures."
+    },
+    {
+      "question": "Can you install tankless water heaters?",
+      "answer": "Absolutely. We install, repair, and maintain tankless water heaters, which are popular in Hoffman Estates' newer homes."
+    },
+    {
+      "question": "Do you offer sump pump maintenance?",
+      "answer": "Yes, we provide sump pump installation, repair, battery backup systems, and annual maintenance to prevent basement flooding."
+    },
+    {
+      "question": "What's your service area in Hoffman Estates?",
+      "answer": "We serve all of Hoffman Estates including residential neighborhoods and the commercial district along I-90."
+    }
+  ]
+}

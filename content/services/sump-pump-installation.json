@@ -1,0 +1,52 @@
+{
+    "name":  "Sump Pump Installation",
+    "slug":  "sump-pump-installation",
+    "category":  "pumps-drainage",
+    "faqs":  [
+                 {
+                     "question":  "How long does sump pump installation take?",
+                     "answer":  "Standard sump pump installation takes 2-4 hours. New basin excavation or battery backup system installation may take longer."
+                 },
+                 {
+                     "question":  "What size sump pump do I need?",
+                     "answer":  "We calculate pump size based on your basement size, water table level, and drainage needs to ensure adequate protection."
+                 },
+                 {
+                     "question":  "Should I install a battery backup system?",
+                     "answer":  "We strongly recommend battery backup systems to protect your basement during power outages, which often occur during severe storms."
+                 },
+                 {
+                     "question":  "Can you install a sump pump where none exists?",
+                     "answer":  "Yes, we excavate sump basins, install pumps, and connect discharge lines for homes that need new sump pump systems."
+                 },
+                 {
+                     "question":  "What type of sump pump is best?",
+                     "answer":  "We recommend submersible pumps for most applications due to their quiet operation and reliability, but pedestal pumps work well in some situations."
+                 },
+                 {
+                     "question":  "Where does the water discharge?",
+                     "answer":  "We route discharge lines away from your foundation to prevent water from returning, following local codes and best practices."
+                 },
+                 {
+                     "question":  "Do you install check valves?",
+                     "answer":  "Yes, we install check valves to prevent water from flowing back into the basin after the pump shuts off."
+                 }
+             ],
+    "relatedServices":  [
+                            "sump-pump-repair",
+                            "outdoor-plumbing-system-repair",
+                            "plumbing-leak-detection",
+                            "drain-cleaning"
+                        ],
+    "description":  "Professional sump pump installation to protect your basement from flooding",
+    "problems":  [
+                     "Issue 1",
+                     "Issue 2",
+                     "Issue 3"
+                 ],
+    "solutions":  [
+                      "Solution 1",
+                      "Solution 2",
+                      "Solution 3"
+                  ]
+}

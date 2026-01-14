@@ -1,0 +1,48 @@
+{
+    "name":  "Garbage Disposal Installation",
+    "slug":  "garbage-disposal-installation",
+    "category":  "garbage-disposals",
+    "faqs":  [
+                 {
+                     "question":  "How long does garbage disposal installation take?",
+                     "answer":  "Most garbage disposal installations take 1-2 hours including removal of the old unit, mounting the new disposal, and connecting plumbing and electrical."
+                 },
+                 {
+                     "question":  "What size disposal do I need?",
+                     "answer":  "We recommend disposal size based on your household size and usage. Typical homes use 1/2 to 3/4 HP units, while larger families may benefit from 1 HP models."
+                 },
+                 {
+                     "question":  "Can you install a disposal if I don\u0027t have one?",
+                     "answer":  "Yes, we can install a garbage disposal where none existed, including necessary plumbing modifications and electrical connections."
+                 },
+                 {
+                     "question":  "Do you handle the electrical connection?",
+                     "answer":  "Yes, we connect the disposal to existing electrical outlets or can hardwire units as needed, following all electrical codes."
+                 },
+                 {
+                     "question":  "What brands do you install?",
+                     "answer":  "We install all major brands including InSinkErator, Waste King, Moen, and KitchenAid, and can recommend the best for your needs."
+                 },
+                 {
+                     "question":  "Do you remove old disposals?",
+                     "answer":  "Yes, we remove and dispose of your old garbage disposal as part of our installation service."
+                 }
+             ],
+    "relatedServices":  [
+                            "garbage-disposal-repair",
+                            "faucet-installation",
+                            "drain-cleaning",
+                            "plumbing-leak-repair"
+                        ],
+    "description":  "Professional garbage disposal installation for kitchen sinks",
+    "problems":  [
+                     "Issue 1",
+                     "Issue 2",
+                     "Issue 3"
+                 ],
+    "solutions":  [
+                      "Solution 1",
+                      "Solution 2",
+                      "Solution 3"
+                  ]
+}

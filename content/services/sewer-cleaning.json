@@ -1,0 +1,52 @@
+{
+    "name":  "Sewer Cleaning",
+    "slug":  "sewer-cleaning",
+    "category":  "drain-sewer",
+    "faqs":  [
+                 {
+                     "question":  "How do you clean sewer lines?",
+                     "answer":  "We use hydro-jetting to blast away buildup and tree roots, or cable augering for specific blockages. We also use camera inspection to verify thorough cleaning."
+                 },
+                 {
+                     "question":  "How often should sewer lines be cleaned?",
+                     "answer":  "We recommend preventive sewer cleaning every 18-24 months, or immediately if you experience slow drains, backups, or gurgling sounds."
+                 },
+                 {
+                     "question":  "Can you remove tree roots from sewer lines?",
+                     "answer":  "Yes, we use specialized cutting equipment and hydro-jetting to remove tree roots, then can apply root treatment to slow regrowth."
+                 },
+                 {
+                     "question":  "What are signs of sewer line problems?",
+                     "answer":  "Warning signs include multiple drain backups, sewage odors, gurgling toilets, slow drains throughout the house, and wet spots in the yard."
+                 },
+                 {
+                     "question":  "Is hydro-jetting safe for old pipes?",
+                     "answer":  "We inspect pipes with a camera first to assess condition. Hydro-jetting is safe for most pipes when performed by trained professionals with proper equipment."
+                 },
+                 {
+                     "question":  "Do you offer emergency sewer cleaning?",
+                     "answer":  "Yes, we provide 24/7 emergency sewer cleaning services for backups and blockages that require immediate attention."
+                 },
+                 {
+                     "question":  "Can sewer cleaning prevent future problems?",
+                     "answer":  "Yes, regular preventive cleaning removes buildup before it causes blockages, extending your sewer line\u0027s life and preventing costly emergencies."
+                 }
+             ],
+    "relatedServices":  [
+                            "sewer-repair",
+                            "drain-cleaning",
+                            "plumbing-leak-detection",
+                            "outdoor-plumbing-system-repair"
+                        ],
+    "description":  "Professional sewer line cleaning services using hydro-jetting and cable augering",
+    "problems":  [
+                     "Issue 1",
+                     "Issue 2",
+                     "Issue 3"
+                 ],
+    "solutions":  [
+                      "Solution 1",
+                      "Solution 2",
+                      "Solution 3"
+                  ]
+}

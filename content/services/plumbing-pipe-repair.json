@@ -1,0 +1,52 @@
+{
+    "name":  "Plumbing Pipe Repair",
+    "slug":  "plumbing-pipe-repair",
+    "category":  "plumbing-repairs",
+    "faqs":  [
+                 {
+                     "question":  "Can you repair pipes without replacing them?",
+                     "answer":  "In many cases yes, we can repair pipes using epoxy lining, pipe clamps, or sectional replacement depending on the damage extent."
+                 },
+                 {
+                     "question":  "What causes pipe leaks?",
+                     "answer":  "Common causes include corrosion, freezing, high water pressure, age, ground shifting, and physical damage from construction or tree roots."
+                 },
+                 {
+                     "question":  "Do you repair all types of pipes?",
+                     "answer":  "Yes, we repair copper, PVC, PEX, galvanized steel, and cast iron pipes using appropriate methods for each material."
+                 },
+                 {
+                     "question":  "How long do pipe repairs last?",
+                     "answer":  "Quality pipe repairs can last 10-20+ years depending on the repair method, pipe material, and water conditions."
+                 },
+                 {
+                     "question":  "Should I repair or replace old pipes?",
+                     "answer":  "We assess pipe condition and provide honest recommendations. Isolated damage often warrants repair, while widespread corrosion may require repiping."
+                 },
+                 {
+                     "question":  "Can you repair frozen pipes?",
+                     "answer":  "Yes, we thaw frozen pipes safely and repair any burst sections, plus recommend freeze prevention measures."
+                 },
+                 {
+                     "question":  "Do you offer emergency pipe repair?",
+                     "answer":  "Yes, we provide 24/7 emergency pipe repair services for burst pipes and major leaks to prevent water damage."
+                 }
+             ],
+    "relatedServices":  [
+                            "plumbing-leak-detection",
+                            "plumbing-leak-repair",
+                            "water-heater-repair",
+                            "sewer-repair"
+                        ],
+    "description":  "Professional pipe repair services for leaks, cracks, and damaged plumbing lines",
+    "problems":  [
+                     "Issue 1",
+                     "Issue 2",
+                     "Issue 3"
+                 ],
+    "solutions":  [
+                      "Solution 1",
+                      "Solution 2",
+                      "Solution 3"
+                  ]
+}

@@ -1,0 +1,56 @@
+{
+  "type": "city",
+  "indexable": true,
+  "name": "Arlington Heights",
+  "slug": "arlington-heights",
+  "state": "Illinois",
+  "stateAbbr": "IL",
+  "county": "Cook",
+  "description": "Trusted plumbing and heating services in Arlington Heights, IL",
+  "neighborhoods": [
+    "Downtown Arlington Heights",
+    "Scarsdale",
+    "Ivy Hill",
+    "Thomas",
+    "Greenbrier",
+    "South Arlington Heights",
+    "Northwest Arlington Heights",
+    "Arlington Park area"
+  ],
+  "landmarks": [
+    "Arlington International Racecourse",
+    "Arlington Heights Memorial Library",
+    "Metropolis Performing Arts Centre",
+    "Lake Arlington",
+    "Arlington Heights Historical Museum"
+  ],
+  "localFactors": [
+    "Established neighborhoods with mature trees causing root intrusion in sewer lines",
+    "Mix of mid-century and newer construction with varying plumbing systems",
+    "Hard water requires regular water heater maintenance",
+    "Many homes have finished basements prone to sump pump issues",
+    "Cold winters require pipe insulation and freeze prevention"
+  ],
+  "city_faqs": [
+    {
+      "question": "How do I prevent frozen pipes in Arlington Heights winters?",
+      "answer": "We recommend insulating exposed pipes, keeping cabinets open during extreme cold, and maintaining heat. We also offer pipe insulation installation services."
+    },
+    {
+      "question": "Do you handle sewer line root removal?",
+      "answer": "Yes, we use hydro jetting and root cutting equipment to clear tree roots from sewer lines, a common issue in Arlington Heights' mature neighborhoods."
+    },
+    {
+      "question": "Can you help with basement waterproofing?",
+      "answer": "We install and service sump pumps, battery backup systems, and drainage solutions to keep Arlington Heights basements dry."
+    },
+    {
+      "question": "Do you service the downtown Arlington Heights area?",
+      "answer": "Yes, we serve all of Arlington Heights including downtown, residential neighborhoods, and commercial properties."
+    },
+    {
+      "question": "What's included in a plumbing inspection?",
+      "answer": "Our inspections include checking all fixtures, water heater, sump pump, visible pipes, water pressure, and sewer line camera inspection if needed."
+    }
+  ]
+}

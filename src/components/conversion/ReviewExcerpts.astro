@@ -1,0 +1,66 @@
+---
+interface Props {
+  reviews: Array<{ text: string; author: string }>;
+  limit?: number;
+}
+
+const { reviews, limit = 3 } = Astro.props;
+const displayReviews = reviews.slice(0, limit);
+---
+
+{displayReviews.length > 0 && (
+  <div class="review-excerpts">
+    <h3>What Our Customers Say</h3>
+    <div class="review-grid">
+      {displayReviews.map(review => (
+        <blockquote class="review-card">
+          <p class="review-text">"{review.text}"</p>
+          <cite class="review-author">— {review.author}</cite>
+        </blockquote>
+      ))}
+    </div>
+  </div>
+)}
+
+<style>
+  .review-excerpts {
+    margin: 3rem 0;
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .review-excerpts h3 {
+    color: #1a1a1a;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .review-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .review-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 6px;
+    border-left: 4px solid #0066cc;
+    margin: 0;
+  }
+  
+  .review-text {
+    color: #333;
+    font-style: italic;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .review-author {
+    color: #666;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+</style>

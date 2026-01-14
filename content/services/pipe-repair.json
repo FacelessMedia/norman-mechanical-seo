@@ -1,0 +1,34 @@
+{
+  "name": "Pipe Repair",
+  "slug": "pipe-repair",
+  "description": "Professional pipe repair and repiping services for residential and commercial properties",
+  "problems": [
+    "Visible leaks or water damage",
+    "Low water pressure throughout the property",
+    "Discolored or rusty water",
+    "Frequent pipe bursts or failures",
+    "Corroded or outdated piping materials"
+  ],
+  "solutions": [
+    "Trenchless pipe repair and relining",
+    "Copper and PEX repiping",
+    "Leak detection and targeted repairs",
+    "Pipe insulation for freeze protection",
+    "Whole-house repiping projects"
+  ],
+  "faqs": [
+    {
+      "question": "What are signs I need pipe replacement?",
+      "answer": "Frequent leaks, discolored water, low pressure, visible corrosion, and pipes over 50 years old are all indicators that repiping may be necessary."
+    },
+    {
+      "question": "How long does a repiping project take?",
+      "answer": "Most residential repiping projects take 2-5 days depending on home size and complexity. We work efficiently to minimize disruption."
+    },
+    {
+      "question": "What's better: copper or PEX piping?",
+      "answer": "Both are excellent. Copper is durable and traditional, while PEX is flexible, cost-effective, and resistant to freezing. We'll recommend the best option for your situation."
+    }
+  ],
+  "relatedServices": ["drain-cleaning", "water-heater-repair", "leak-detection", "sewer-line-service", "emergency-plumbing"]
+}

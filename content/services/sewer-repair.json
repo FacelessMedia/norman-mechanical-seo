@@ -1,0 +1,56 @@
+{
+    "name":  "Sewer Repair",
+    "slug":  "sewer-repair",
+    "category":  "drain-sewer",
+    "faqs":  [
+                 {
+                     "question":  "What is trenchless sewer repair?",
+                     "answer":  "Trenchless repair uses pipe lining or pipe bursting to repair sewers without extensive digging, preserving your landscaping and reducing costs."
+                 },
+                 {
+                     "question":  "How do you know if my sewer needs repair?",
+                     "answer":  "We use camera inspection to assess sewer line condition and identify cracks, breaks, root intrusion, or collapse requiring repair."
+                 },
+                 {
+                     "question":  "Can you repair sewer lines without digging up my yard?",
+                     "answer":  "Often yes, using trenchless methods. However, some situations require traditional excavation depending on damage extent and pipe depth."
+                 },
+                 {
+                     "question":  "How long does sewer repair take?",
+                     "answer":  "Trenchless repairs typically take 1-2 days. Traditional excavation and replacement may take 2-5 days depending on length and site conditions."
+                 },
+                 {
+                     "question":  "What causes sewer line damage?",
+                     "answer":  "Common causes include tree root intrusion, ground shifting, corrosion, age, freezing, and physical damage from construction or heavy vehicles."
+                 },
+                 {
+                     "question":  "Is sewer repair covered by insurance?",
+                     "answer":  "Coverage varies by policy. Sudden damage is often covered, while gradual deterioration may not be. We provide documentation for insurance claims."
+                 },
+                 {
+                     "question":  "Do you offer emergency sewer repair?",
+                     "answer":  "Yes, we provide emergency sewer repair services for collapsed lines, major breaks, and sewage backups requiring immediate attention."
+                 },
+                 {
+                     "question":  "How long do sewer repairs last?",
+                     "answer":  "Quality sewer repairs using modern materials and methods typically last 50+ years, often outlasting the original pipe."
+                 }
+             ],
+    "relatedServices":  [
+                            "sewer-cleaning",
+                            "plumbing-pipe-repair",
+                            "plumbing-leak-detection",
+                            "drain-cleaning"
+                        ],
+    "description":  "Expert sewer line repair and replacement services using traditional and trenchless methods",
+    "problems":  [
+                     "Issue 1",
+                     "Issue 2",
+                     "Issue 3"
+                 ],
+    "solutions":  [
+                      "Solution 1",
+                      "Solution 2",
+                      "Solution 3"
+                  ]
+}

@@ -1,0 +1,52 @@
+{
+    "name":  "Toilet Installation",
+    "slug":  "toilet-installation",
+    "category":  "fixtures-installations",
+    "faqs":  [
+                 {
+                     "question":  "How long does toilet installation take?",
+                     "answer":  "Standard toilet installation typically takes 1-2 hours including removal of the old toilet, wax ring replacement, and proper sealing."
+                 },
+                 {
+                     "question":  "Do you supply toilets or do I need to purchase one?",
+                     "answer":  "You can purchase your own toilet or we can recommend and supply quality fixtures that fit your needs and budget."
+                 },
+                 {
+                     "question":  "Can you install water-efficient toilets?",
+                     "answer":  "Yes, we install all types of water-efficient toilets including low-flow, dual-flush, and high-efficiency models that save water and money."
+                 },
+                 {
+                     "question":  "What if the flange is damaged?",
+                     "answer":  "We repair or replace damaged toilet flanges as part of the installation to ensure a proper, leak-free seal."
+                 },
+                 {
+                     "question":  "Do you remove and dispose of old toilets?",
+                     "answer":  "Yes, we remove your old toilet and dispose of it properly as part of our installation service."
+                 },
+                 {
+                     "question":  "Can you install comfort height toilets?",
+                     "answer":  "Yes, we install comfort height (ADA compliant) toilets which are easier to use for many people, especially seniors and those with mobility issues."
+                 },
+                 {
+                     "question":  "What about smart toilets?",
+                     "answer":  "Yes, we install smart toilets with bidet functions, heated seats, automatic lids, and other advanced features, including necessary electrical connections."
+                 }
+             ],
+    "relatedServices":  [
+                            "toilet-repair",
+                            "faucet-installation",
+                            "shower-installation",
+                            "plumbing-leak-repair"
+                        ],
+    "description":  "Professional toilet installation services for new and replacement toilets",
+    "problems":  [
+                     "Issue 1",
+                     "Issue 2",
+                     "Issue 3"
+                 ],
+    "solutions":  [
+                      "Solution 1",
+                      "Solution 2",
+                      "Solution 3"
+                  ]
+}

@@ -1,0 +1,50 @@
+{
+  "type": "city",
+  "indexable": true,
+  "name": "Rolling Meadows",
+  "slug": "rolling-meadows",
+  "state": "Illinois",
+  "stateAbbr": "IL",
+  "county": "Cook",
+  "description": "Professional plumbing and drain services in Rolling Meadows, IL",
+  "neighborhoods": [
+    "Kimball Hill",
+    "Kirchoff Woods",
+    "Plum Grove Estates",
+    "Rolling Meadows Country Club",
+    "Saratoga",
+    "Central Rolling Meadows"
+  ],
+  "landmarks": [
+    "Rolling Meadows Community Center",
+    "Kimball Hill Park",
+    "Ned Brown Preserve",
+    "Rolling Meadows Library",
+    "Plum Grove Historic House"
+  ],
+  "localFactors": [
+    "Mix of 1960s-70s ranch homes and newer construction",
+    "Many homes need sewer line and pipe upgrades",
+    "Clay soil affects drainage and foundation issues",
+    "Older water heaters common in established neighborhoods",
+    "Proximity to preserves means wildlife can affect outdoor plumbing"
+  ],
+  "city_faqs": [
+    {
+      "question": "Do you replace old galvanized pipes in Rolling Meadows?",
+      "answer": "Yes, we specialize in repiping older Rolling Meadows homes, replacing galvanized and outdated pipes with modern copper or PEX."
+    },
+    {
+      "question": "Can you help with slow drains?",
+      "answer": "Absolutely. We use camera inspection and hydro jetting to diagnose and clear stubborn drain clogs throughout Rolling Meadows."
+    },
+    {
+      "question": "Do you service the Kimball Hill area?",
+      "answer": "Yes, we serve all Rolling Meadows neighborhoods including Kimball Hill, Kirchoff Woods, and surrounding areas."
+    },
+    {
+      "question": "What causes low water pressure in older homes?",
+      "answer": "Low pressure is often caused by corroded galvanized pipes, mineral buildup, or failing pressure regulators. We can diagnose and fix the issue."
+    }
+  ]
+}

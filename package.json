@@ -1,0 +1,25 @@
+{
+  "name": "norman-mechanical-seo",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "npm run validate && npm run quality-gates && astro build",
+    "build:skip-validation": "astro build",
+    "preview": "astro preview",
+    "lint:geo": "tsx scripts/ban-terms.ts",
+    "validate": "npm run lint:geo && tsx scripts/validate-content.ts",
+    "quality-gates": "tsx scripts/quality-gates.ts",
+    "audit": "tsx scripts/audit-site.ts",
+    "astro": "astro"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "cheerio": "^1.0.0-rc.12",
+    "robots-parser": "^3.0.1",
+    "tsx": "^4.7.0"
+  },
+  "dependencies": {
+    "astro": "^5.16.9"
+  }
+}

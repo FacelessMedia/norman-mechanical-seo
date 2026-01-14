@@ -1,0 +1,157 @@
+{
+  "primary_category": "Plumber",
+  "additional_categories": [],
+  "hours": [
+    {
+      "day": "Sunday",
+      "opens": null,
+      "closes": null,
+      "closed": true
+    },
+    {
+      "day": "Monday",
+      "opens": "07:00",
+      "closes": "16:00",
+      "closed": false
+    },
+    {
+      "day": "Tuesday",
+      "opens": "07:00",
+      "closes": "16:00",
+      "closed": false
+    },
+    {
+      "day": "Wednesday",
+      "opens": "07:00",
+      "closes": "16:00",
+      "closed": false
+    },
+    {
+      "day": "Thursday",
+      "opens": "07:00",
+      "closes": "16:00",
+      "closed": false
+    },
+    {
+      "day": "Friday",
+      "opens": "07:00",
+      "closes": "16:00",
+      "closed": false
+    },
+    {
+      "day": "Saturday",
+      "opens": null,
+      "closes": null,
+      "closed": true
+    }
+  ],
+  "service_areas": [
+    "Elgin, IL, USA",
+    "Naperville, IL, USA",
+    "Schaumburg, IL, USA",
+    "Hoffman Estates, IL, USA",
+    "Rolling Meadows, IL, USA",
+    "Arlington Heights, IL, USA",
+    "Chicago Metropolitan Area, USA"
+  ],
+  "markets_mentioned": [
+    "Elgin, IL",
+    "Crystal Lake, IL",
+    "St. Charles, IL",
+    "Geneva, IL",
+    "Arlington Heights, IL",
+    "Naperville, IL",
+    "Schaumburg, IL",
+    "Hoffman Estates, IL",
+    "Rolling Meadows, IL",
+    "Chicagoland area"
+  ],
+  "attributes": {
+    "accessibility": {
+      "wheelchair_accessible_parking": true,
+      "wheelchair_accessible_entrance": true
+    },
+    "offerings": {
+      "repair_services": true
+    },
+    "parking": {
+      "onsite_parking": true,
+      "free_parking_lot": true
+    },
+    "payments": {
+      "accepts_credit_cards": true,
+      "american_express": true,
+      "discover": true,
+      "mastercard": true,
+      "visa": true,
+      "cash_only": false
+    },
+    "service_options": {
+      "onsite_services": true,
+      "online_estimates": true
+    },
+    "recycling": {
+      "electronics_recycling": false
+    }
+  },
+  "regular_hours_note": "Regular office hours. Emergency service available 24/7.",
+  "services_list": [
+    { "name": "Faucet installation", "slug": "faucet-installation" },
+    { "name": "Faucet repair", "slug": "faucet-repair" },
+    { "name": "Plumbing leak detection", "slug": "plumbing-leak-detection" },
+    { "name": "Plumbing pipe repair", "slug": "plumbing-pipe-repair" },
+    { "name": "Shower installation", "slug": "shower-installation" },
+    { "name": "Toilet installation", "slug": "toilet-installation" },
+    { "name": "Toilet repair", "slug": "toilet-repair" },
+    { "name": "Water heater installation", "slug": "water-heater-installation" },
+    { "name": "Drain cleaning", "slug": "drain-cleaning" },
+    { "name": "Garbage disposal installation", "slug": "garbage-disposal-installation" },
+    { "name": "Garbage disposal repair", "slug": "garbage-disposal-repair" },
+    { "name": "Outdoor plumbing system repair", "slug": "outdoor-plumbing-system-repair" },
+    { "name": "Plumbing leak repair", "slug": "plumbing-leak-repair" },
+    { "name": "Sewer cleaning", "slug": "sewer-cleaning" },
+    { "name": "Sewer repair", "slug": "sewer-repair" },
+    { "name": "Shower repair", "slug": "shower-repair" },
+    { "name": "Sump pump installation", "slug": "sump-pump-installation" },
+    { "name": "Sump pump repair", "slug": "sump-pump-repair" },
+    { "name": "Water heater repair", "slug": "water-heater-repair" },
+    { "name": "Water tank installation", "slug": "water-tank-installation" },
+    { "name": "Water tank repair", "slug": "water-tank-repair" }
+  ],
+  "aggregate_rating": null,
+  "review_count": null,
+  "featured_review_excerpts": [
+    {
+      "text": "Pipe break on Sunday—Joe arrived quickly, courteous, great price.",
+      "author": "Scott"
+    },
+    {
+      "text": "Great people… professional service!",
+      "author": "David"
+    },
+    {
+      "text": "Joe was fantastic… installed new kitchen faucets… worked quickly and diligently.",
+      "author": "Susan"
+    },
+    {
+      "text": "No hot water… within 2 hours a plumber was at my house.",
+      "author": "Gretchen"
+    },
+    {
+      "text": "Difficult case handled with ease… satisfied with product, experience, service, and price.",
+      "author": "Ginah"
+    },
+    {
+      "text": "Urgent help… within 30 minutes Billy was…",
+      "author": "Sara"
+    },
+    {
+      "text": "Excellent job resolving my sewer…",
+      "author": "Nick"
+    },
+    {
+      "text": "Knowledgeable, friendly, and efficient. Got the job done.",
+      "author": "Diane"
+    }
+  ]
+}

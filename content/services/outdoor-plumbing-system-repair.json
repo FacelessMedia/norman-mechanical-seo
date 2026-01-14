@@ -1,0 +1,52 @@
+{
+    "name":  "Outdoor Plumbing System Repair",
+    "slug":  "outdoor-plumbing-system-repair",
+    "category":  "drain-sewer",
+    "faqs":  [
+                 {
+                     "question":  "What outdoor plumbing do you repair?",
+                     "answer":  "We repair hose bibs, outdoor faucets, yard drains, French drains, sump pump discharge lines, and underground water lines."
+                 },
+                 {
+                     "question":  "Can you fix frozen outdoor faucets?",
+                     "answer":  "Yes, we repair freeze damage to outdoor faucets and can install frost-free hose bibs to prevent future freezing."
+                 },
+                 {
+                     "question":  "Do you repair underground pipe leaks?",
+                     "answer":  "Yes, we locate and repair underground water line leaks using leak detection equipment and appropriate repair methods."
+                 },
+                 {
+                     "question":  "Can you fix yard drainage problems?",
+                     "answer":  "Yes, we repair and install yard drainage systems including French drains, catch basins, and channel drains to prevent water pooling."
+                 },
+                 {
+                     "question":  "Do you work on sprinkler systems?",
+                     "answer":  "We handle the plumbing aspects of sprinkler systems including supply line repairs and backflow preventer service. For sprinkler heads and controllers, we recommend irrigation specialists."
+                 },
+                 {
+                     "question":  "Can you repair sump pump discharge lines?",
+                     "answer":  "Yes, we repair and reroute sump pump discharge lines to ensure proper drainage away from your foundation."
+                 },
+                 {
+                     "question":  "Do you offer seasonal outdoor plumbing services?",
+                     "answer":  "Yes, we provide winterization services to prevent freeze damage and spring startup services to check for winter damage."
+                 }
+             ],
+    "relatedServices":  [
+                            "plumbing-pipe-repair",
+                            "plumbing-leak-detection",
+                            "sump-pump-repair",
+                            "drain-cleaning"
+                        ],
+    "description":  "Professional repair services for outdoor plumbing including hose bibs, sprinklers, and yard drains",
+    "problems":  [
+                     "Issue 1",
+                     "Issue 2",
+                     "Issue 3"
+                 ],
+    "solutions":  [
+                      "Solution 1",
+                      "Solution 2",
+                      "Solution 3"
+                  ]
+}

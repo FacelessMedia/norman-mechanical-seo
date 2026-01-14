@@ -1,0 +1,56 @@
+{
+  "type": "city",
+  "indexable": true,
+  "name": "Schaumburg",
+  "slug": "schaumburg",
+  "state": "Illinois",
+  "stateAbbr": "IL",
+  "county": "Cook",
+  "description": "Commercial and residential plumbing services in Schaumburg, IL",
+  "neighborhoods": [
+    "Olde Schaumburg Centre",
+    "Weathersfield",
+    "Lexington Fields",
+    "Walden",
+    "Timberlake",
+    "Carriage Way",
+    "Hoffman Highlands",
+    "Pheasant Ridge"
+  ],
+  "landmarks": [
+    "Woodfield Mall",
+    "Schaumburg Convention Center",
+    "Legoland Discovery Center",
+    "Medieval Times",
+    "Ned Brown Preserve"
+  ],
+  "localFactors": [
+    "Mix of commercial properties and residential subdivisions",
+    "Many townhomes and condos with shared plumbing systems",
+    "Retail and restaurant plumbing requires specialized commercial service",
+    "Older homes from 1960s-70s need sewer line and pipe updates",
+    "Heavy clay soil affects foundation drainage and sewer lines"
+  ],
+  "city_faqs": [
+    {
+      "question": "Do you handle commercial plumbing in Schaumburg?",
+      "answer": "Yes, we provide comprehensive commercial plumbing services for restaurants, retail, offices, and industrial facilities throughout Schaumburg."
+    },
+    {
+      "question": "Can you service condo and townhome plumbing?",
+      "answer": "Absolutely. We work with HOAs and property managers to service shared and individual plumbing systems in Schaumburg's condo communities."
+    },
+    {
+      "question": "Do you offer preventative maintenance for businesses?",
+      "answer": "Yes, we provide scheduled maintenance programs for commercial clients to prevent downtime and costly emergency repairs."
+    },
+    {
+      "question": "What areas of Schaumburg do you cover?",
+      "answer": "We serve all of Schaumburg including areas near Woodfield Mall, the convention center, and all residential neighborhoods."
+    },
+    {
+      "question": "Do you work evenings and weekends?",
+      "answer": "Yes, we offer 24/7 emergency service and flexible scheduling including evenings and weekends for both residential and commercial clients."
+    }
+  ]
+}

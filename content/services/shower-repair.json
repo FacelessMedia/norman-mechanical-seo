@@ -1,0 +1,56 @@
+{
+    "name":  "Shower Repair",
+    "slug":  "shower-repair",
+    "category":  "fixtures-installations",
+    "faqs":  [
+                 {
+                     "question":  "Can you fix shower leaks?",
+                     "answer":  "Yes, we repair all types of shower leaks including valve leaks, showerhead leaks, diverter leaks, and leaks behind walls."
+                 },
+                 {
+                     "question":  "Why won\u0027t my shower get hot?",
+                     "answer":  "Common causes include faulty mixing valves, water heater issues, or pressure balancing problems. We diagnose and fix the root cause."
+                 },
+                 {
+                     "question":  "Can you fix low shower pressure?",
+                     "answer":  "Yes, we diagnose and fix low pressure caused by clogged showerheads, valve restrictions, supply line issues, or pressure balancing problems."
+                 },
+                 {
+                     "question":  "Should I repair or replace shower fixtures?",
+                     "answer":  "We\u0027ll assess your fixtures honestly. Simple repairs like cartridge replacement are cost-effective, but extensive corrosion may warrant replacement."
+                 },
+                 {
+                     "question":  "Can you repair shower valves?",
+                     "answer":  "Yes, we repair or replace shower valves including cartridges, seals, and complete valve bodies when necessary."
+                 },
+                 {
+                     "question":  "Do you fix shower diverters?",
+                     "answer":  "Yes, we repair or replace faulty shower diverters that won\u0027t switch between tub spout and showerhead properly."
+                 },
+                 {
+                     "question":  "Can you repair temperature fluctuations?",
+                     "answer":  "Yes, we fix temperature issues by repairing or replacing pressure-balancing valves, thermostatic valves, or addressing supply line problems."
+                 },
+                 {
+                     "question":  "Do you offer emergency shower repair?",
+                     "answer":  "Yes, we provide emergency repair services for major shower leaks and complete failures affecting your daily routine."
+                 }
+             ],
+    "relatedServices":  [
+                            "shower-installation",
+                            "faucet-repair",
+                            "plumbing-leak-repair",
+                            "water-heater-repair"
+                        ],
+    "description":  "Professional shower repair services for leaks, temperature issues, and malfunctioning fixtures",
+    "problems":  [
+                     "Issue 1",
+                     "Issue 2",
+                     "Issue 3"
+                 ],
+    "solutions":  [
+                      "Solution 1",
+                      "Solution 2",
+                      "Solution 3"
+                  ]
+}

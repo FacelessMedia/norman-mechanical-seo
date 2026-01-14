@@ -1,0 +1,48 @@
+{
+    "name":  "Plumbing Leak Detection",
+    "slug":  "plumbing-leak-detection",
+    "category":  "drain-sewer",
+    "faqs":  [
+                 {
+                     "question":  "How do you detect hidden leaks?",
+                     "answer":  "We use acoustic listening devices, thermal imaging cameras, and moisture meters to locate leaks behind walls, under floors, and in underground pipes."
+                 },
+                 {
+                     "question":  "What are signs of a hidden leak?",
+                     "answer":  "Signs include unexplained water bill increases, damp spots, mold growth, water stains, or the sound of running water when fixtures are off."
+                 },
+                 {
+                     "question":  "Is leak detection expensive?",
+                     "answer":  "Professional leak detection saves money by preventing extensive water damage and pinpointing the exact location, avoiding unnecessary demolition."
+                 },
+                 {
+                     "question":  "Can you detect slab leaks?",
+                     "answer":  "Yes, we specialize in detecting slab leaks under concrete foundations using non-invasive electronic leak detection equipment."
+                 },
+                 {
+                     "question":  "Do you repair leaks after detecting them?",
+                     "answer":  "Yes, once we locate the leak, we provide repair options and can complete the fix immediately in most cases."
+                 },
+                 {
+                     "question":  "How long does leak detection take?",
+                     "answer":  "Most leak detection services take 1-3 hours depending on property size and leak complexity."
+                 }
+             ],
+    "relatedServices":  [
+                            "plumbing-leak-repair",
+                            "plumbing-pipe-repair",
+                            "water-heater-repair",
+                            "sewer-repair"
+                        ],
+    "description":  "Advanced leak detection services using specialized equipment to locate hidden water leaks",
+    "problems":  [
+                     "Issue 1",
+                     "Issue 2",
+                     "Issue 3"
+                 ],
+    "solutions":  [
+                      "Solution 1",
+                      "Solution 2",
+                      "Solution 3"
+                  ]
+}

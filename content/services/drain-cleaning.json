@@ -1,0 +1,34 @@
+{
+  "name": "Drain Cleaning",
+  "slug": "drain-cleaning",
+  "description": "Professional drain cleaning services to clear clogs and restore proper flow in your plumbing system",
+  "problems": [
+    "Slow draining sinks or tubs",
+    "Recurring clogs in kitchen or bathroom drains",
+    "Foul odors coming from drains",
+    "Gurgling sounds in pipes",
+    "Water backing up in multiple fixtures"
+  ],
+  "solutions": [
+    "Hydro jetting for thorough pipe cleaning",
+    "Video camera inspection to identify blockages",
+    "Enzymatic drain treatments for organic buildup",
+    "Cable augering for stubborn clogs",
+    "Preventive maintenance plans"
+  ],
+  "faqs": [
+    {
+      "question": "How often should I have my drains professionally cleaned?",
+      "answer": "We recommend professional drain cleaning every 18-24 months for preventive maintenance, or immediately if you notice slow drainage or recurring clogs."
+    },
+    {
+      "question": "Is hydro jetting safe for old pipes?",
+      "answer": "Yes, when performed by trained professionals. We inspect pipes with a camera first to ensure they can handle the pressure, and adjust our equipment accordingly."
+    },
+    {
+      "question": "What causes most drain clogs?",
+      "answer": "Common culprits include hair, soap scum, food debris, grease buildup, and foreign objects. Tree roots can also infiltrate outdoor drain lines."
+    }
+  ],
+  "relatedServices": ["water-heater-repair", "pipe-repair", "sewer-line-service", "hydro-jetting", "video-inspection"]
+}

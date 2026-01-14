@@ -1,0 +1,64 @@
+{
+  "type": "city",
+  "indexable": true,
+  "name": "Crystal Lake",
+  "slug": "crystal-lake",
+  "state": "Illinois",
+  "stateAbbr": "IL",
+  "county": "McHenry County",
+  "description": "Professional plumbing and mechanical services throughout Crystal Lake, Illinois",
+  "neighborhoods": [
+    "Downtown Crystal Lake",
+    "Lake Shore",
+    "Coventry",
+    "Lakewood",
+    "Indian Prairie",
+    "Turnberry",
+    "Ridgefield",
+    "Huntley Meadows"
+  ],
+  "landmarks": [
+    "Crystal Lake Main Beach",
+    "Three Oaks Recreation Area",
+    "Veteran Acres Park",
+    "Raue Center for the Arts",
+    "Crystal Lake Metra Station",
+    "Downtown Crystal Lake Historic District",
+    "Lippold Park"
+  ],
+  "localFactors": [
+    "Older housing stock from 1950s-1970s often requires updated plumbing systems",
+    "Hard water from local wells causes mineral buildup in pipes and fixtures",
+    "Clay soil and high water table increase basement flooding risk",
+    "Freeze-thaw cycles stress outdoor plumbing and foundation drains",
+    "Mature trees throughout neighborhoods lead to root intrusion in sewer lines",
+    "Many homes have sump pumps requiring regular maintenance",
+    "Lake proximity creates unique drainage challenges"
+  ],
+  "city_faqs": [
+    {
+      "question": "Do you service Crystal Lake year-round?",
+      "answer": "Yes, we provide plumbing services throughout Crystal Lake 365 days a year, including emergency service for frozen pipes, burst lines, and heating system failures during harsh winter months."
+    },
+    {
+      "question": "How quickly can you respond to emergencies in Crystal Lake?",
+      "answer": "We typically arrive within 60-90 minutes for emergency calls in Crystal Lake and surrounding McHenry County areas. Our local dispatch ensures fast response times."
+    },
+    {
+      "question": "Do you work with older homes in Crystal Lake?",
+      "answer": "Absolutely. We specialize in updating plumbing systems in Crystal Lake's older housing stock, including repiping, fixture upgrades, and sewer line replacement."
+    },
+    {
+      "question": "Can you help with hard water issues?",
+      "answer": "Yes, we install water softeners and filtration systems to combat Crystal Lake's hard water problems, protecting your pipes and appliances from mineral buildup."
+    },
+    {
+      "question": "Do you offer sump pump services?",
+      "answer": "Yes, we install, repair, and maintain sump pumps throughout Crystal Lake. Given the area's high water table and flooding risk, we recommend annual inspections."
+    },
+    {
+      "question": "What areas of Crystal Lake do you cover?",
+      "answer": "We service all Crystal Lake neighborhoods including Downtown, Lake Shore, Coventry, Lakewood, Indian Prairie, and surrounding areas in McHenry County."
+    }
+  ]
+}

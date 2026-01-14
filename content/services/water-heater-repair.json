@@ -1,0 +1,34 @@
+{
+  "name": "Water Heater Repair",
+  "slug": "water-heater-repair",
+  "description": "Expert water heater repair and replacement services for tank and tankless systems",
+  "problems": [
+    "No hot water or inconsistent temperature",
+    "Strange noises from water heater",
+    "Leaking water around the unit",
+    "Rusty or discolored hot water",
+    "Higher than normal energy bills"
+  ],
+  "solutions": [
+    "Thermostat and heating element replacement",
+    "Anode rod replacement to prevent corrosion",
+    "Pressure relief valve repair",
+    "Tank flushing and sediment removal",
+    "Complete water heater replacement"
+  ],
+  "faqs": [
+    {
+      "question": "How long does a water heater typically last?",
+      "answer": "Traditional tank water heaters last 8-12 years, while tankless models can last 15-20 years with proper maintenance."
+    },
+    {
+      "question": "Should I repair or replace my water heater?",
+      "answer": "If your unit is over 10 years old, requires frequent repairs, or has significant rust or leaks, replacement is usually more cost-effective."
+    },
+    {
+      "question": "What size water heater do I need?",
+      "answer": "Size depends on household size and usage. A family of 4 typically needs a 50-gallon tank or an 8-10 GPM tankless unit."
+    }
+  ],
+  "relatedServices": ["drain-cleaning", "pipe-repair", "tankless-installation", "emergency-plumbing", "leak-detection"]
+}

@@ -1,0 +1,938 @@
+{
+  "services": {
+    "drain-cleaning": {
+      "symptoms": [
+        "Slow draining sink or tub",
+        "Gurgling sounds from drains",
+        "Water backing up",
+        "Foul odors from drains",
+        "Multiple clogged drains"
+      ],
+      "causes": [
+        "Hair and soap buildup",
+        "Grease accumulation",
+        "Foreign objects",
+        "Tree root intrusion",
+        "Pipe corrosion or collapse"
+      ],
+      "solutions": [
+        "Hydro jetting",
+        "Cable snaking",
+        "Enzymatic drain cleaners",
+        "Camera inspection",
+        "Pipe replacement if needed"
+      ],
+      "tools_methods": [
+        "Motorized drain snake",
+        "Hydro jetting equipment",
+        "Sewer camera inspection",
+        "Auger tools"
+      ],
+      "pricing_factors": [
+        "Severity of clog",
+        "Drain location and accessibility",
+        "Length of pipe affected",
+        "Emergency vs scheduled service"
+      ],
+      "preventative_maintenance": [
+        "Monthly hot water flush",
+        "Avoid pouring grease down drains",
+        "Use drain screens",
+        "Regular professional cleaning",
+        "Enzyme treatments"
+      ],
+      "emergency_triggers": [
+        "Sewage backup into home",
+        "Multiple drains clogged simultaneously",
+        "Water overflow causing damage"
+      ]
+    },
+    "sewer-cleaning": {
+      "symptoms": [
+        "Sewage backup in lowest drains",
+        "Multiple fixtures backing up",
+        "Wet spots in yard",
+        "Sewage odor outside",
+        "Toilet bubbling when other fixtures used"
+      ],
+      "causes": [
+        "Tree root infiltration",
+        "Grease buildup in main line",
+        "Collapsed or broken sewer pipe",
+        "Foreign objects in line",
+        "Bellied or sagging pipe"
+      ],
+      "solutions": [
+        "Main line hydro jetting",
+        "Root cutting service",
+        "Sewer line replacement",
+        "Trenchless pipe lining",
+        "Camera-guided repair"
+      ],
+      "tools_methods": [
+        "High-pressure water jetting",
+        "Sewer camera inspection",
+        "Root cutting blades",
+        "Trenchless repair equipment"
+      ],
+      "pricing_factors": [
+        "Length of sewer line",
+        "Depth of line",
+        "Extent of damage",
+        "Repair method required",
+        "Permit and restoration costs"
+      ],
+      "preventative_maintenance": [
+        "Annual sewer camera inspection",
+        "Root treatment for trees near lines",
+        "Avoid flushing non-biodegradables",
+        "Regular professional cleaning"
+      ],
+      "emergency_triggers": [
+        "Raw sewage in home",
+        "Complete sewer blockage",
+        "Health hazard conditions"
+      ]
+    },
+    "sewer-repair": {
+      "symptoms": [
+        "Persistent sewer backups",
+        "Sinkholes or depressions in yard",
+        "Lush patches of grass over sewer line",
+        "Foundation cracks",
+        "Rodent or insect infestation"
+      ],
+      "causes": [
+        "Pipe corrosion and age",
+        "Tree root damage",
+        "Ground shifting or settling",
+        "Freezing and thawing cycles",
+        "Poor original installation"
+      ],
+      "solutions": [
+        "Trenchless pipe lining",
+        "Pipe bursting replacement",
+        "Traditional excavation and replacement",
+        "Spot repair for localized damage"
+      ],
+      "tools_methods": [
+        "Trenchless technology",
+        "Excavation equipment",
+        "Epoxy pipe lining",
+        "Pipe bursting tools"
+      ],
+      "pricing_factors": [
+        "Repair vs replacement decision",
+        "Depth and accessibility",
+        "Length of damaged section",
+        "Landscaping restoration",
+        "Permit requirements"
+      ],
+      "preventative_maintenance": [
+        "Regular camera inspections",
+        "Root barrier installation",
+        "Proper waste disposal habits",
+        "Monitor for early warning signs"
+      ],
+      "emergency_triggers": [
+        "Complete sewer line collapse",
+        "Sewage flooding property",
+        "Structural damage to foundation"
+      ]
+    },
+    "water-heater-installation": {
+      "symptoms": [
+        "No hot water",
+        "Old unit past lifespan",
+        "Frequent repairs needed",
+        "Rusty water",
+        "Inadequate hot water supply"
+      ],
+      "causes": [
+        "End of equipment lifespan",
+        "Upgrading home capacity needs",
+        "Energy efficiency upgrade",
+        "Failed beyond repair"
+      ],
+      "solutions": [
+        "Tank water heater installation",
+        "Tankless water heater installation",
+        "Hybrid heat pump water heater",
+        "Proper sizing for household needs"
+      ],
+      "tools_methods": [
+        "Gas line connection",
+        "Electrical wiring",
+        "Venting installation",
+        "Water line connections",
+        "Code-compliant installation"
+      ],
+      "pricing_factors": [
+        "Tank vs tankless type",
+        "Fuel type (gas vs electric)",
+        "Capacity and size",
+        "Venting requirements",
+        "Permit and inspection fees"
+      ],
+      "preventative_maintenance": [
+        "Annual tank flushing",
+        "Anode rod inspection",
+        "Temperature and pressure valve testing",
+        "Proper thermostat settings"
+      ],
+      "emergency_triggers": [
+        "Water heater leaking heavily",
+        "No hot water in winter",
+        "Gas leak detected"
+      ]
+    },
+    "water-heater-repair": {
+      "symptoms": [
+        "Lukewarm or cold water",
+        "Strange noises from tank",
+        "Leaking around base",
+        "Discolored or rusty water",
+        "Pilot light won't stay lit"
+      ],
+      "causes": [
+        "Failed heating element",
+        "Thermostat malfunction",
+        "Sediment buildup",
+        "Corroded anode rod",
+        "Faulty pressure relief valve"
+      ],
+      "solutions": [
+        "Heating element replacement",
+        "Thermostat adjustment or replacement",
+        "Tank flushing",
+        "Anode rod replacement",
+        "Valve replacement"
+      ],
+      "tools_methods": [
+        "Multimeter testing",
+        "Element wrench",
+        "Flushing equipment",
+        "Pressure testing tools"
+      ],
+      "pricing_factors": [
+        "Part replacement costs",
+        "Labor complexity",
+        "Age of unit",
+        "Emergency vs scheduled"
+      ],
+      "preventative_maintenance": [
+        "Annual professional inspection",
+        "Regular tank flushing",
+        "Anode rod replacement every 3-5 years",
+        "Temperature monitoring"
+      ],
+      "emergency_triggers": [
+        "Active water leak",
+        "No hot water in cold weather",
+        "Gas smell near unit"
+      ]
+    },
+    "faucet-installation": {
+      "symptoms": [
+        "Outdated faucet style",
+        "Remodeling project",
+        "Upgrading fixtures"
+      ],
+      "causes": [
+        "Home renovation",
+        "Style preference change",
+        "Functionality upgrade"
+      ],
+      "solutions": [
+        "Single-handle faucet installation",
+        "Two-handle faucet installation",
+        "Touchless faucet installation",
+        "Pull-down spray faucet installation"
+      ],
+      "tools_methods": [
+        "Basin wrench",
+        "Supply line connections",
+        "Mounting hardware installation",
+        "Leak testing"
+      ],
+      "pricing_factors": [
+        "Faucet type and quality",
+        "Number of holes required",
+        "Countertop material",
+        "Additional features (spray, touchless)"
+      ],
+      "preventative_maintenance": [
+        "Clean aerator regularly",
+        "Check for leaks periodically",
+        "Tighten connections as needed"
+      ],
+      "emergency_triggers": []
+    },
+    "faucet-repair": {
+      "symptoms": [
+        "Dripping faucet",
+        "Low water pressure",
+        "Handle hard to turn",
+        "Leaking around base",
+        "Sprayer not working"
+      ],
+      "causes": [
+        "Worn washers or O-rings",
+        "Corroded valve seat",
+        "Damaged cartridge",
+        "Mineral buildup",
+        "Loose parts"
+      ],
+      "solutions": [
+        "Washer or O-ring replacement",
+        "Cartridge replacement",
+        "Valve seat repair",
+        "Aerator cleaning",
+        "Handle tightening"
+      ],
+      "tools_methods": [
+        "Cartridge puller",
+        "Seat wrench",
+        "Allen wrenches",
+        "Replacement parts"
+      ],
+      "pricing_factors": [
+        "Part replacement needed",
+        "Faucet type and age",
+        "Accessibility",
+        "Labor time"
+      ],
+      "preventative_maintenance": [
+        "Regular aerator cleaning",
+        "Gentle handle operation",
+        "Address drips promptly",
+        "Annual inspection"
+      ],
+      "emergency_triggers": [
+        "Faucet won't shut off",
+        "Major leak causing water damage"
+      ]
+    },
+    "toilet-installation": {
+      "symptoms": [
+        "Bathroom remodel",
+        "Upgrading to efficient model",
+        "Replacing old toilet"
+      ],
+      "causes": [
+        "Renovation project",
+        "Water efficiency upgrade",
+        "Comfort height preference",
+        "Beyond repair"
+      ],
+      "solutions": [
+        "Standard toilet installation",
+        "Comfort height toilet installation",
+        "Dual-flush toilet installation",
+        "Wall-mounted toilet installation"
+      ],
+      "tools_methods": [
+        "Wax ring installation",
+        "Floor flange repair if needed",
+        "Water supply connection",
+        "Proper sealing and leveling"
+      ],
+      "pricing_factors": [
+        "Toilet type and features",
+        "Floor condition",
+        "Flange repair needs",
+        "Removal and disposal of old unit"
+      ],
+      "preventative_maintenance": [
+        "Check for leaks regularly",
+        "Avoid harsh chemical cleaners",
+        "Don't overtighten bolts",
+        "Inspect wax ring seal"
+      ],
+      "emergency_triggers": []
+    },
+    "toilet-repair": {
+      "symptoms": [
+        "Toilet running constantly",
+        "Weak or incomplete flush",
+        "Leaking around base",
+        "Toilet rocking or loose",
+        "Clogging frequently"
+      ],
+      "causes": [
+        "Faulty flapper valve",
+        "Fill valve malfunction",
+        "Wax ring failure",
+        "Loose mounting bolts",
+        "Clogged trap or vent"
+      ],
+      "solutions": [
+        "Flapper replacement",
+        "Fill valve replacement",
+        "Wax ring replacement",
+        "Bolt tightening or replacement",
+        "Trap or vent clearing"
+      ],
+      "tools_methods": [
+        "Toilet repair kit",
+        "Adjustable wrench",
+        "Wax ring",
+        "Closet auger"
+      ],
+      "pricing_factors": [
+        "Parts needed",
+        "Complexity of repair",
+        "Age of toilet",
+        "Water damage extent"
+      ],
+      "preventative_maintenance": [
+        "Annual flapper inspection",
+        "Avoid flushing non-flushables",
+        "Check for leaks monthly",
+        "Clean tank components"
+      ],
+      "emergency_triggers": [
+        "Toilet overflowing",
+        "Major leak at base",
+        "Complete flush failure"
+      ]
+    },
+    "shower-installation": {
+      "symptoms": [
+        "Bathroom renovation",
+        "Upgrading shower system",
+        "Converting tub to shower"
+      ],
+      "causes": [
+        "Remodeling project",
+        "Accessibility needs",
+        "Style upgrade",
+        "Adding shower to bathroom"
+      ],
+      "solutions": [
+        "Standard shower installation",
+        "Walk-in shower installation",
+        "Shower/tub combo installation",
+        "Custom tile shower installation"
+      ],
+      "tools_methods": [
+        "Plumbing rough-in",
+        "Waterproofing installation",
+        "Valve and trim installation",
+        "Drain assembly"
+      ],
+      "pricing_factors": [
+        "Shower type and size",
+        "Tile vs prefab",
+        "Valve quality",
+        "Custom features",
+        "Waterproofing requirements"
+      ],
+      "preventative_maintenance": [
+        "Regular grout sealing",
+        "Clean showerhead regularly",
+        "Check for leaks",
+        "Maintain caulking"
+      ],
+      "emergency_triggers": []
+    },
+    "shower-repair": {
+      "symptoms": [
+        "Low water pressure",
+        "Temperature fluctuations",
+        "Leaking shower valve",
+        "Dripping showerhead",
+        "Cracked shower pan"
+      ],
+      "causes": [
+        "Clogged showerhead",
+        "Faulty mixing valve",
+        "Worn cartridge",
+        "Damaged seals",
+        "Pan liner failure"
+      ],
+      "solutions": [
+        "Showerhead cleaning or replacement",
+        "Valve cartridge replacement",
+        "Seal replacement",
+        "Pan repair or replacement",
+        "Pressure balancing valve repair"
+      ],
+      "tools_methods": [
+        "Cartridge puller",
+        "Valve repair kit",
+        "Waterproofing materials",
+        "Pressure testing"
+      ],
+      "pricing_factors": [
+        "Part replacement costs",
+        "Access difficulty",
+        "Tile removal if needed",
+        "Waterproofing extent"
+      ],
+      "preventative_maintenance": [
+        "Descale showerhead monthly",
+        "Check grout and caulk",
+        "Test water temperature",
+        "Inspect for leaks"
+      ],
+      "emergency_triggers": [
+        "Water leaking through ceiling",
+        "No temperature control",
+        "Major valve leak"
+      ]
+    },
+    "sump-pump-installation": {
+      "symptoms": [
+        "Basement flooding risk",
+        "High water table",
+        "New home construction",
+        "Upgrading old pump"
+      ],
+      "causes": [
+        "Basement waterproofing needs",
+        "Flood prevention",
+        "Building code requirements",
+        "Failed existing pump"
+      ],
+      "solutions": [
+        "Pedestal sump pump installation",
+        "Submersible sump pump installation",
+        "Battery backup system installation",
+        "Dual pump system installation"
+      ],
+      "tools_methods": [
+        "Basin excavation",
+        "Pump placement and leveling",
+        "Discharge pipe installation",
+        "Check valve installation",
+        "Electrical connection"
+      ],
+      "pricing_factors": [
+        "Pump type and capacity",
+        "Battery backup addition",
+        "Discharge pipe length",
+        "Basin installation",
+        "Electrical work required"
+      ],
+      "preventative_maintenance": [
+        "Test pump quarterly",
+        "Clean pump and basin annually",
+        "Check discharge line",
+        "Test battery backup",
+        "Inspect float switch"
+      ],
+      "emergency_triggers": [
+        "Active basement flooding",
+        "Pump failure during storm",
+        "Heavy rain forecast with no pump"
+      ]
+    },
+    "sump-pump-repair": {
+      "symptoms": [
+        "Pump not turning on",
+        "Pump running constantly",
+        "Strange noises",
+        "Pump cycling too frequently",
+        "Water not being discharged"
+      ],
+      "causes": [
+        "Float switch stuck",
+        "Clogged discharge line",
+        "Failed motor",
+        "Check valve failure",
+        "Electrical issues"
+      ],
+      "solutions": [
+        "Float switch adjustment or replacement",
+        "Discharge line clearing",
+        "Motor replacement",
+        "Check valve replacement",
+        "Electrical repair"
+      ],
+      "tools_methods": [
+        "Multimeter testing",
+        "Pump testing",
+        "Discharge line snake",
+        "Replacement parts"
+      ],
+      "pricing_factors": [
+        "Part replacement needed",
+        "Pump age",
+        "Emergency service timing",
+        "Labor complexity"
+      ],
+      "preventative_maintenance": [
+        "Pour water in basin monthly to test",
+        "Clean pump intake screen",
+        "Check discharge pipe for ice in winter",
+        "Annual professional inspection"
+      ],
+      "emergency_triggers": [
+        "Pump failure during active flooding",
+        "Storm approaching with failed pump",
+        "Water rising in basement"
+      ]
+    },
+    "plumbing-leak-detection": {
+      "symptoms": [
+        "Unexplained water bill increase",
+        "Sound of running water",
+        "Wet spots on walls or ceiling",
+        "Musty odors",
+        "Foundation cracks"
+      ],
+      "causes": [
+        "Hidden pipe leaks",
+        "Slab leak",
+        "Underground water line leak",
+        "Fixture supply line leak",
+        "Sewer line leak"
+      ],
+      "solutions": [
+        "Electronic leak detection",
+        "Thermal imaging inspection",
+        "Acoustic leak detection",
+        "Pressure testing",
+        "Camera inspection"
+      ],
+      "tools_methods": [
+        "Electronic listening devices",
+        "Thermal cameras",
+        "Pressure testing equipment",
+        "Moisture meters",
+        "Video inspection cameras"
+      ],
+      "pricing_factors": [
+        "Detection method required",
+        "Property size",
+        "Accessibility",
+        "Number of potential leak points"
+      ],
+      "preventative_maintenance": [
+        "Monitor water bills",
+        "Annual plumbing inspection",
+        "Check meter when water off",
+        "Inspect visible pipes regularly"
+      ],
+      "emergency_triggers": [
+        "Rapidly increasing water damage",
+        "Foundation shifting",
+        "Mold growth accelerating"
+      ]
+    },
+    "plumbing-pipe-repair": {
+      "symptoms": [
+        "Visible pipe corrosion",
+        "Low water pressure",
+        "Discolored water",
+        "Pipe leaking",
+        "Banging pipes"
+      ],
+      "causes": [
+        "Pipe corrosion",
+        "Freezing damage",
+        "High water pressure",
+        "Age and wear",
+        "Poor installation"
+      ],
+      "solutions": [
+        "Pipe section replacement",
+        "Epoxy pipe lining",
+        "Compression fitting repair",
+        "Pipe rerouting",
+        "Full repipe if needed"
+      ],
+      "tools_methods": [
+        "Pipe cutters",
+        "Soldering equipment",
+        "PEX installation tools",
+        "Compression fittings",
+        "Epoxy lining materials"
+      ],
+      "pricing_factors": [
+        "Pipe material type",
+        "Location and accessibility",
+        "Length of repair",
+        "Wall or ceiling opening needed",
+        "Restoration costs"
+      ],
+      "preventative_maintenance": [
+        "Insulate pipes in cold areas",
+        "Monitor water pressure",
+        "Address leaks promptly",
+        "Regular inspections"
+      ],
+      "emergency_triggers": [
+        "Burst pipe",
+        "Major leak causing flooding",
+        "Frozen pipe about to burst"
+      ]
+    },
+    "plumbing-leak-repair": {
+      "symptoms": [
+        "Dripping from pipes",
+        "Water stains",
+        "Puddles under fixtures",
+        "Ceiling water damage",
+        "Wall dampness"
+      ],
+      "causes": [
+        "Loose connections",
+        "Worn gaskets",
+        "Cracked pipes",
+        "Corrosion",
+        "High water pressure"
+      ],
+      "solutions": [
+        "Tighten connections",
+        "Replace gaskets and seals",
+        "Patch or replace damaged section",
+        "Install pressure regulator",
+        "Epoxy repair for small leaks"
+      ],
+      "tools_methods": [
+        "Pipe wrenches",
+        "Replacement gaskets",
+        "Epoxy putty",
+        "Pipe clamps",
+        "Soldering equipment"
+      ],
+      "pricing_factors": [
+        "Leak location",
+        "Accessibility",
+        "Extent of damage",
+        "Materials needed",
+        "Emergency timing"
+      ],
+      "preventative_maintenance": [
+        "Regular visual inspections",
+        "Check under sinks monthly",
+        "Monitor water pressure",
+        "Address small leaks immediately"
+      ],
+      "emergency_triggers": [
+        "Active flooding",
+        "Ceiling leak",
+        "Leak near electrical"
+      ]
+    },
+    "garbage-disposal-installation": {
+      "symptoms": [
+        "Kitchen remodel",
+        "Adding disposal to sink",
+        "Upgrading old unit"
+      ],
+      "causes": [
+        "New construction",
+        "Convenience upgrade",
+        "Replacing failed unit"
+      ],
+      "solutions": [
+        "Standard disposal installation",
+        "High-capacity disposal installation",
+        "Continuous feed installation",
+        "Batch feed installation"
+      ],
+      "tools_methods": [
+        "Mounting assembly",
+        "Electrical connection",
+        "Drain line connection",
+        "Dishwasher connection if needed"
+      ],
+      "pricing_factors": [
+        "Disposal horsepower",
+        "Features and quality",
+        "Electrical work needed",
+        "Plumbing modifications"
+      ],
+      "preventative_maintenance": [
+        "Run cold water during use",
+        "Avoid fibrous foods",
+        "Clean with ice cubes monthly",
+        "Never use chemical drain cleaners"
+      ],
+      "emergency_triggers": []
+    },
+    "garbage-disposal-repair": {
+      "symptoms": [
+        "Disposal not turning on",
+        "Humming but not grinding",
+        "Leaking from unit",
+        "Strange noises",
+        "Slow draining"
+      ],
+      "causes": [
+        "Jammed impeller",
+        "Tripped reset button",
+        "Worn seals",
+        "Foreign object stuck",
+        "Motor failure"
+      ],
+      "solutions": [
+        "Reset button activation",
+        "Manual jam clearing",
+        "Seal replacement",
+        "Foreign object removal",
+        "Motor repair or replacement"
+      ],
+      "tools_methods": [
+        "Allen wrench for manual rotation",
+        "Reset button",
+        "Flashlight inspection",
+        "Pliers for object removal"
+      ],
+      "pricing_factors": [
+        "Repair vs replacement decision",
+        "Parts needed",
+        "Age of unit",
+        "Labor time"
+      ],
+      "preventative_maintenance": [
+        "Grind ice cubes monthly",
+        "Avoid hard items",
+        "Run water before and after use",
+        "Clean splash guard regularly"
+      ],
+      "emergency_triggers": [
+        "Disposal leaking heavily",
+        "Electrical sparking",
+        "Smoke from unit"
+      ]
+    },
+    "outdoor-plumbing-system-repair": {
+      "symptoms": [
+        "Hose bib leaking",
+        "Sprinkler system issues",
+        "Outdoor faucet frozen",
+        "Low water pressure outside",
+        "Wet areas in yard"
+      ],
+      "causes": [
+        "Freeze damage",
+        "Worn hose bib washers",
+        "Underground pipe leak",
+        "Sprinkler valve failure",
+        "Backflow preventer issues"
+      ],
+      "solutions": [
+        "Hose bib replacement",
+        "Freeze-proof faucet installation",
+        "Underground pipe repair",
+        "Sprinkler valve replacement",
+        "Backflow preventer repair"
+      ],
+      "tools_methods": [
+        "Excavation for underground repairs",
+        "Freeze-proof faucet installation",
+        "Valve replacement",
+        "Pipe locating equipment"
+      ],
+      "pricing_factors": [
+        "Depth of buried lines",
+        "Extent of freeze damage",
+        "Landscaping restoration",
+        "Parts and materials"
+      ],
+      "preventative_maintenance": [
+        "Winterize outdoor faucets",
+        "Drain sprinkler systems before freeze",
+        "Insulate exposed pipes",
+        "Annual backflow testing"
+      ],
+      "emergency_triggers": [
+        "Geyser from underground break",
+        "Frozen pipe about to burst",
+        "Major water waste"
+      ]
+    },
+    "water-tank-installation": {
+      "symptoms": [
+        "Need for water storage",
+        "Well system addition",
+        "Pressure tank replacement"
+      ],
+      "causes": [
+        "Well water system",
+        "Water storage needs",
+        "Pressure regulation",
+        "Failed existing tank"
+      ],
+      "solutions": [
+        "Pressure tank installation",
+        "Storage tank installation",
+        "Expansion tank installation",
+        "Well pressure system setup"
+      ],
+      "tools_methods": [
+        "Tank mounting",
+        "Pressure switch installation",
+        "Piping connections",
+        "Pressure testing"
+      ],
+      "pricing_factors": [
+        "Tank size and type",
+        "Pressure switch quality",
+        "Piping modifications",
+        "Location and accessibility"
+      ],
+      "preventative_maintenance": [
+        "Check air pressure annually",
+        "Inspect for corrosion",
+        "Test pressure switch",
+        "Monitor pressure gauge"
+      ],
+      "emergency_triggers": [
+        "Tank rupture",
+        "No water pressure",
+        "Well pump cycling constantly"
+      ]
+    },
+    "water-tank-repair": {
+      "symptoms": [
+        "Pressure fluctuations",
+        "Tank waterlogged",
+        "Pump short cycling",
+        "Leaking tank",
+        "Pressure switch issues"
+      ],
+      "causes": [
+        "Lost air charge",
+        "Ruptured bladder",
+        "Corroded tank",
+        "Faulty pressure switch",
+        "Leaking connections"
+      ],
+      "solutions": [
+        "Air charge restoration",
+        "Bladder replacement",
+        "Tank replacement",
+        "Pressure switch replacement",
+        "Connection repair"
+      ],
+      "tools_methods": [
+        "Air compressor",
+        "Pressure gauge",
+        "Replacement parts",
+        "Pipe wrenches"
+      ],
+      "pricing_factors": [
+        "Tank age and condition",
+        "Repair vs replacement",
+        "Parts needed",
+        "Labor complexity"
+      ],
+      "preventative_maintenance": [
+        "Annual pressure check",
+        "Monitor for leaks",
+        "Test pressure switch",
+        "Inspect tank condition"
+      ],
+      "emergency_triggers": [
+        "Tank burst",
+        "Complete pressure loss",
+        "Well pump damage from cycling"
+      ]
+    }
+  }
+}

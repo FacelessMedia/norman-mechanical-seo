@@ -1,0 +1,52 @@
+{
+    "name":  "Garbage Disposal Repair",
+    "slug":  "garbage-disposal-repair",
+    "category":  "garbage-disposals",
+    "faqs":  [
+                 {
+                     "question":  "Can you fix a jammed garbage disposal?",
+                     "answer":  "Yes, we safely clear jams by removing foreign objects and freeing stuck impellers, then test the unit to ensure proper operation."
+                 },
+                 {
+                     "question":  "Why won\u0027t my disposal turn on?",
+                     "answer":  "Common causes include tripped reset buttons, electrical issues, or motor failure. We diagnose the problem and provide repair or replacement options."
+                 },
+                 {
+                     "question":  "Can you fix disposal leaks?",
+                     "answer":  "Yes, we repair leaks from the sink flange, discharge pipe, or disposal body by replacing seals, tightening connections, or recommending replacement if needed."
+                 },
+                 {
+                     "question":  "Should I repair or replace my disposal?",
+                     "answer":  "We\u0027ll assess your disposal honestly. Simple repairs like clearing jams or fixing leaks are cost-effective, but motor failure often warrants replacement."
+                 },
+                 {
+                     "question":  "Why is my disposal making noise?",
+                     "answer":  "Unusual noises can indicate foreign objects, worn bearings, or loose parts. We diagnose and fix the issue to restore quiet operation."
+                 },
+                 {
+                     "question":  "Can you fix slow-draining disposals?",
+                     "answer":  "Yes, we clear clogs in the disposal or drain line using professional equipment to restore proper drainage."
+                 },
+                 {
+                     "question":  "Do you offer emergency disposal repair?",
+                     "answer":  "Yes, we provide prompt repair services for disposal emergencies including major leaks and complete failures."
+                 }
+             ],
+    "relatedServices":  [
+                            "garbage-disposal-installation",
+                            "drain-cleaning",
+                            "plumbing-leak-repair",
+                            "faucet-repair"
+                        ],
+    "description":  "Expert garbage disposal repair for jams, leaks, and malfunctions",
+    "problems":  [
+                     "Issue 1",
+                     "Issue 2",
+                     "Issue 3"
+                 ],
+    "solutions":  [
+                      "Solution 1",
+                      "Solution 2",
+                      "Solution 3"
+                  ]
+}

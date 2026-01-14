@@ -1,0 +1,56 @@
+{
+  "type": "city",
+  "indexable": true,
+  "name": "Elgin",
+  "slug": "elgin",
+  "state": "Illinois",
+  "stateAbbr": "IL",
+  "county": "Kane",
+  "description": "Professional plumbing and heating services in Elgin, IL and surrounding communities",
+  "neighborhoods": [
+    "Downtown Elgin",
+    "Lords Park",
+    "Southeast Elgin",
+    "Wing Park",
+    "Bowes Creek",
+    "Gifford Park",
+    "Highlands of Elgin",
+    "Prairie Park"
+  ],
+  "landmarks": [
+    "Grand Victoria Casino",
+    "Elgin Public Museum",
+    "Lords Park Zoo",
+    "Fox River",
+    "Elgin Community College"
+  ],
+  "localFactors": [
+    "Older homes with cast iron and galvanized pipes requiring replacement",
+    "Hard water from Fox River aquifer causes mineral buildup",
+    "Freeze-thaw cycles stress outdoor plumbing and sewer lines",
+    "Many homes built 1950s-1970s need water heater and fixture upgrades",
+    "Basement flooding common in low-lying areas near Fox River"
+  ],
+  "city_faqs": [
+    {
+      "question": "Why is my water bill high in Elgin?",
+      "answer": "High water bills often indicate hidden leaks, running toilets, or outdated fixtures. We offer leak detection services to identify and fix the source of water waste."
+    },
+    {
+      "question": "Do you service both Elgin and South Elgin?",
+      "answer": "Yes, we serve all of Elgin, South Elgin, and the surrounding Kane County communities with 24/7 emergency plumbing service."
+    },
+    {
+      "question": "How often should I replace my water heater in Elgin?",
+      "answer": "With Elgin's hard water, water heaters typically last 8-12 years. Regular flushing can extend lifespan, but sediment buildup often requires earlier replacement."
+    },
+    {
+      "question": "Can you help with frozen pipes in winter?",
+      "answer": "Absolutely. We provide emergency frozen pipe thawing and repair services throughout Elgin's cold winters, plus preventative insulation solutions."
+    },
+    {
+      "question": "Do you work on older homes in downtown Elgin?",
+      "answer": "Yes, we specialize in updating plumbing in historic Elgin homes, including repiping, sewer line replacement, and modernizing fixtures while preserving character."
+    }
+  ]
+}

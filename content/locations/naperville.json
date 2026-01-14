@@ -1,0 +1,56 @@
+{
+  "type": "city",
+  "indexable": true,
+  "name": "Naperville",
+  "slug": "naperville",
+  "state": "Illinois",
+  "stateAbbr": "IL",
+  "county": "DuPage",
+  "description": "Expert plumbing services for Naperville homes and businesses",
+  "neighborhoods": [
+    "Downtown Naperville",
+    "Ashbury",
+    "Cress Creek",
+    "Tall Grass",
+    "White Eagle",
+    "Springbrook",
+    "River Run",
+    "Hobson West"
+  ],
+  "landmarks": [
+    "Naperville Riverwalk",
+    "Naper Settlement",
+    "Centennial Beach",
+    "DuPage Children's Museum",
+    "North Central College"
+  ],
+  "localFactors": [
+    "Newer subdivisions with PEX and copper plumbing systems",
+    "High-end homes require premium fixture service and maintenance",
+    "Hard water common, water softener systems popular",
+    "Sump pump failures during heavy spring rains",
+    "Many homes have finished basements with additional bathrooms"
+  ],
+  "city_faqs": [
+    {
+      "question": "Do you service all areas of Naperville?",
+      "answer": "Yes, we serve all Naperville neighborhoods including downtown, north Naperville, and south Naperville with same-day service available."
+    },
+    {
+      "question": "Can you install whole-home water filtration systems?",
+      "answer": "Absolutely. We install and service water softeners, reverse osmosis systems, and whole-home filtration to address Naperville's hard water."
+    },
+    {
+      "question": "Do you work with home builders in Naperville?",
+      "answer": "Yes, we partner with builders and contractors for new construction plumbing, remodels, and additions throughout Naperville."
+    },
+    {
+      "question": "What's your typical response time?",
+      "answer": "We typically arrive within 60-90 minutes for emergencies in Naperville, and offer flexible scheduling for routine service."
+    },
+    {
+      "question": "Do you offer maintenance plans?",
+      "answer": "Yes, we offer annual plumbing maintenance plans including water heater flushing, drain cleaning, and system inspections to prevent costly repairs."
+    }
+  ]
+}

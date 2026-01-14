@@ -1,0 +1,48 @@
+{
+    "name":  "Faucet Repair",
+    "slug":  "faucet-repair",
+    "category":  "fixtures-installations",
+    "faqs":  [
+                 {
+                     "question":  "Can you fix a dripping faucet?",
+                     "answer":  "Yes, we repair dripping faucets by replacing worn washers, O-rings, cartridges, or other internal components causing the leak."
+                 },
+                 {
+                     "question":  "How much does faucet repair cost?",
+                     "answer":  "Repair costs vary based on the issue and parts needed, but most repairs are more cost-effective than replacement. We provide upfront pricing."
+                 },
+                 {
+                     "question":  "Should I repair or replace my faucet?",
+                     "answer":  "We\u0027ll assess your faucet\u0027s condition and provide honest recommendations. Simple repairs are often sufficient, but extensive damage may warrant replacement."
+                 },
+                 {
+                     "question":  "Do you repair all faucet brands?",
+                     "answer":  "Yes, we repair all major faucet brands including Moen, Delta, Kohler, American Standard, and more."
+                 },
+                 {
+                     "question":  "How long do faucet repairs last?",
+                     "answer":  "With quality parts and proper installation, faucet repairs typically last several years before needing attention again."
+                 },
+                 {
+                     "question":  "Can you fix low water pressure in faucets?",
+                     "answer":  "Yes, we diagnose and fix low pressure issues caused by clogged aerators, supply line problems, or internal valve issues."
+                 }
+             ],
+    "relatedServices":  [
+                            "faucet-installation",
+                            "plumbing-leak-repair",
+                            "water-heater-repair",
+                            "drain-cleaning"
+                        ],
+    "description":  "Expert faucet repair services for leaks, drips, and malfunctioning fixtures",
+    "problems":  [
+                     "Issue 1",
+                     "Issue 2",
+                     "Issue 3"
+                 ],
+    "solutions":  [
+                      "Solution 1",
+                      "Solution 2",
+                      "Solution 3"
+                  ]
+}

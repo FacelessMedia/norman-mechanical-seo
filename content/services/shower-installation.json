@@ -1,0 +1,48 @@
+{
+    "name":  "Shower Installation",
+    "slug":  "shower-installation",
+    "category":  "fixtures-installations",
+    "faqs":  [
+                 {
+                     "question":  "What\u0027s included in shower installation?",
+                     "answer":  "We install shower valves, trim kits, showerheads, handheld sprayers, and connect all plumbing lines, ensuring proper water pressure and temperature control."
+                 },
+                 {
+                     "question":  "Can you install custom shower systems?",
+                     "answer":  "Yes, we install custom shower systems including rain heads, body sprays, digital controls, and multi-function shower panels."
+                 },
+                 {
+                     "question":  "How long does shower installation take?",
+                     "answer":  "Basic shower fixture installation takes 2-4 hours, while complete shower system installations may take a full day depending on complexity."
+                 },
+                 {
+                     "question":  "Do you install shower pans and surrounds?",
+                     "answer":  "We handle the plumbing connections. For tile and surround work, we can coordinate with qualified contractors or recommend trusted partners."
+                 },
+                 {
+                     "question":  "Can you convert a tub to a shower?",
+                     "answer":  "Yes, we handle all plumbing aspects of tub-to-shower conversions including drain relocation, valve installation, and fixture mounting."
+                 },
+                 {
+                     "question":  "What shower brands do you install?",
+                     "answer":  "We install all major brands including Kohler, Delta, Moen, American Standard, Grohe, and custom luxury shower systems."
+                 }
+             ],
+    "relatedServices":  [
+                            "shower-repair",
+                            "faucet-installation",
+                            "toilet-installation",
+                            "plumbing-pipe-repair"
+                        ],
+    "description":  "Complete shower installation services including fixtures, valves, and plumbing connections",
+    "problems":  [
+                     "Issue 1",
+                     "Issue 2",
+                     "Issue 3"
+                 ],
+    "solutions":  [
+                      "Solution 1",
+                      "Solution 2",
+                      "Solution 3"
+                  ]
+}

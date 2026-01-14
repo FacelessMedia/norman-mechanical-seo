@@ -1,0 +1,155 @@
+---
+import Base from '../../layouts/Base.astro';
+import { loadBusiness, loadGBP, loadService, loadAllServices, loadAllCities } from '../../lib/content/loaders';
+import { generateServiceSchema } from '../../lib/content/schema/service';
+import { generateFAQSchema } from '../../lib/content/schema/faq';
+import { generateBreadcrumbSchema, buildBreadcrumbs } from '../../lib/content/schema/breadcrumbs';
+import { generateMetaTags, buildTitle } from '../../lib/seo/meta';
+import { getRelatedServiceLinks, getTopCityLinks } from '../../lib/content/internalLinks';
+
+export async function getStaticPaths() {
+  const allServices = loadAllServices();
+  return allServices.map(service => ({
+    params: { service: service.slug },
+    props: { service }
+  }));
+}
+
+const { service } = Astro.props;
+const business = loadBusiness();
+const gbp = loadGBP();
+const allServices = loadAllServices();
+const allCities = loadAllCities();
+
+const baseUrl = business.url;
+const pageUrl = `${baseUrl}/services/${service.slug}`;
+
+const meta = generateMetaTags(
+  buildTitle([service.name], business.name),
+  service.description,
+  `/services/${service.slug}`,
+  baseUrl
+);
+
+const breadcrumbs = buildBreadcrumbs(`/services/${service.slug}`, service.name);
+const schema = [
+  generateServiceSchema(service, business, gbp, pageUrl),
+  generateFAQSchema(service.faqs, pageUrl),
+  generateBreadcrumbSchema(breadcrumbs, baseUrl)
+].filter(Boolean);
+
+const relatedServiceLinks = getRelatedServiceLinks(service.relatedServices, allServices);
+const topCityLinks = getTopCityLinks(allCities.filter(c => c.type === 'city'), 8);
+---
+
+<Base meta={meta} schema={schema}>
+  <h1>{service.name}</h1>
+  <p class="lead">{service.description}</p>
+  
+  <section>
+    <h2>Common Problems We Solve</h2>
+    <ul>
+      {service.problems.map(problem => (
+        <li>{problem}</li>
+      ))}
+    </ul>
+  </section>
+  
+  <section>
+    <h2>Our Solutions</h2>
+    <ul>
+      {service.solutions.map(solution => (
+        <li>{solution}</li>
+      ))}
+    </ul>
+  </section>
+  
+  {service.faqs && service.faqs.length > 0 && (
+    <section>
+      <h2>Frequently Asked Questions</h2>
+      {service.faqs.map(faq => (
+        <div class="faq-item">
+          <h3>{faq.question}</h3>
+          <p>{faq.answer}</p>
+        </div>
+      ))}
+    </section>
+  )}
+  
+  <section>
+    <h2>Available in These Areas</h2>
+    <ul class="link-list">
+      {topCityLinks.map(link => (
+        <li><a href={`${link.href}/${service.slug}`}>{service.name} in {link.text}</a></li>
+      ))}
+    </ul>
+  </section>
+  
+  {relatedServiceLinks.length > 0 && (
+    <section>
+      <h2>Related Services</h2>
+      <ul class="link-list">
+        {relatedServiceLinks.map(link => (
+          <li><a href={link.href}>{link.text}</a></li>
+        ))}
+      </ul>
+    </section>
+  )}
+</Base>
+
+<style>
+  .lead {
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  section {
+    margin: 3rem 0;
+  }
+  
+  h2 {
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 0.5rem;
+  }
+  
+  ul {
+    line-height: 1.8;
+  }
+  
+  .faq-item {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .faq-item h3 {
+    margin-top: 0;
+    color: #1a1a1a;
+  }
+  
+  .faq-item p {
+    margin-bottom: 0;
+    color: #555;
+  }
+  
+  .link-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .link-list a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .link-list a:hover {
+    text-decoration: underline;
+  }
+</style>

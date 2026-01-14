@@ -1,0 +1,44 @@
+{
+    "name":  "Faucet Installation",
+    "slug":  "faucet-installation",
+    "category":  "fixtures-installations",
+    "faqs":  [
+                 {
+                     "question":  "How long does faucet installation take?",
+                     "answer":  "Most faucet installations take 1-2 hours, depending on the complexity of the fixture and existing plumbing configuration."
+                 },
+                 {
+                     "question":  "Do I need to purchase the faucet before installation?",
+                     "answer":  "You can purchase your own faucet or we can recommend and supply quality fixtures that fit your needs and budget."
+                 },
+                 {
+                     "question":  "Can you install faucets in older homes?",
+                     "answer":  "Yes, we regularly install faucets in older homes and can adapt to various plumbing configurations, including updating supply lines if needed."
+                 },
+                 {
+                     "question":  "What types of faucets do you install?",
+                     "answer":  "We install all types including single-handle, double-handle, pull-down, touchless, and commercial-style kitchen faucets, plus bathroom sink and tub faucets."
+                 },
+                 {
+                     "question":  "Do you remove and dispose of old faucets?",
+                     "answer":  "Yes, we remove your old faucet and dispose of it properly as part of our installation service."
+                 }
+             ],
+    "relatedServices":  [
+                            "faucet-repair",
+                            "sink-installation",
+                            "plumbing-leak-repair",
+                            "shower-installation"
+                        ],
+    "description":  "Professional faucet installation services for kitchen and bathroom fixtures",
+    "problems":  [
+                     "Issue 1",
+                     "Issue 2",
+                     "Issue 3"
+                 ],
+    "solutions":  [
+                      "Solution 1",
+                      "Solution 2",
+                      "Solution 3"
+                  ]
+}

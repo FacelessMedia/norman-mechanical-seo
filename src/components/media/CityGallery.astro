@@ -1,0 +1,79 @@
+---
+interface MediaImage {
+  id: string;
+  filename: string;
+  category: string;
+  description: string;
+}
+
+interface Props {
+  images: MediaImage[];
+  cityName: string;
+  altTextGenerator: (cityName: string, description: string) => string;
+}
+
+const { images, cityName, altTextGenerator } = Astro.props;
+---
+
+{images.length > 0 && (
+  <div class="city-gallery">
+    <h3>Serving {cityName}</h3>
+    <div class="gallery-grid">
+      {images.map(image => (
+        <div class="gallery-item">
+          <img 
+            src={`/images/cities/${image.filename}`} 
+            alt={altTextGenerator(cityName, image.description)}
+            loading="lazy"
+            width="400"
+            height="300"
+          />
+        </div>
+      ))}
+    </div>
+  </div>
+)}
+
+<style>
+  .city-gallery {
+    margin: 3rem 0;
+  }
+  
+  .city-gallery h3 {
+    color: #1a1a1a;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .gallery-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  @media (max-width: 768px) {
+    .gallery-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

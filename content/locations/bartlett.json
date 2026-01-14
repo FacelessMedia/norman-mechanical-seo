@@ -1,0 +1,68 @@
+{
+  "type": "city",
+  "indexable": true,
+  "name": "Bartlett",
+  "slug": "bartlett",
+  "state": "Illinois",
+  "stateAbbr": "IL",
+  "county": "DuPage County",
+  "description": "Expert plumbing and mechanical services for Bartlett, Illinois homes and businesses",
+  "neighborhoods": [
+    "Old Town Bartlett",
+    "Bartlett Hills",
+    "Wynwood",
+    "Bartlett Highlands",
+    "Oak Creek",
+    "Thornwood",
+    "Bartlett Station",
+    "Countryside"
+  ],
+  "landmarks": [
+    "Bartlett Metra Station",
+    "Bartlett Aquatic Center",
+    "Bartlett Park District",
+    "James O. Breen Community Park",
+    "Bartlett Nature Center",
+    "Veterans Memorial",
+    "Bartlett Hills Golf Club"
+  ],
+  "localFactors": [
+    "Mix of older and newer construction requires diverse plumbing expertise",
+    "Clay soil common in area leads to foundation movement and pipe stress",
+    "Hard water from municipal supply causes fixture and appliance wear",
+    "Established neighborhoods have mature trees causing root intrusion in sewers",
+    "Cold winters stress outdoor plumbing and require freeze protection",
+    "Many homes have sump pumps due to high water table and drainage needs",
+    "Aging infrastructure in older sections needs proactive maintenance"
+  ],
+  "city_faqs": [
+    {
+      "question": "Do you offer emergency plumbing services in Bartlett?",
+      "answer": "Yes, we provide 24/7 emergency plumbing services throughout Bartlett for burst pipes, water heater failures, sewer backups, and other urgent plumbing issues."
+    },
+    {
+      "question": "What's your response time for Bartlett calls?",
+      "answer": "We typically arrive within 60-90 minutes for emergency calls in Bartlett and surrounding DuPage County areas, with priority response for critical situations."
+    },
+    {
+      "question": "Can you work on both old and new homes?",
+      "answer": "Yes, we have expertise with Bartlett's diverse housing stock, from older homes needing system updates to newer construction requiring modern plumbing solutions."
+    },
+    {
+      "question": "Do you install water treatment systems?",
+      "answer": "Yes, we install water softeners and filtration systems to address Bartlett's hard water issues, protecting your plumbing and improving water quality."
+    },
+    {
+      "question": "Can you help with basement flooding?",
+      "answer": "Absolutely. We install and service sump pumps, battery backup systems, and drainage solutions to protect Bartlett homes from basement flooding and water damage."
+    },
+    {
+      "question": "Do you handle sewer line repairs?",
+      "answer": "Yes, we provide complete sewer line services including camera inspection, root removal, repair, and replacement using both traditional and trenchless methods."
+    },
+    {
+      "question": "What neighborhoods in Bartlett do you serve?",
+      "answer": "We service all Bartlett neighborhoods including Old Town, Bartlett Hills, Wynwood, Bartlett Highlands, Oak Creek, and surrounding areas."
+    }
+  ]
+}

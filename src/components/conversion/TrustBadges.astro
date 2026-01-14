@@ -1,0 +1,74 @@
+---
+interface Props {
+  emergencyService: boolean;
+  licensed: boolean;
+  insured: boolean;
+}
+
+const { emergencyService, licensed, insured } = Astro.props;
+---
+
+<div class="trust-badges">
+  {emergencyService && (
+    <div class="badge">
+      <span class="badge-icon">🚨</span>
+      <span class="badge-text">24/7 Emergency Service</span>
+    </div>
+  )}
+  {licensed && (
+    <div class="badge">
+      <span class="badge-icon">✓</span>
+      <span class="badge-text">Licensed & Insured</span>
+    </div>
+  )}
+  <div class="badge">
+    <span class="badge-icon">⭐</span>
+    <span class="badge-text">Family Owned</span>
+  </div>
+  <div class="badge">
+    <span class="badge-icon">💳</span>
+    <span class="badge-text">All Major Cards Accepted</span>
+  </div>
+</div>
+
+<style>
+  .trust-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 2rem 0;
+    justify-content: center;
+  }
+  
+  .badge {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .badge-icon {
+    font-size: 1.2rem;
+  }
+  
+  .badge-text {
+    white-space: nowrap;
+  }
+  
+  @media (max-width: 768px) {
+    .trust-badges {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    
+    .badge {
+      justify-content: center;
+    }
+  }
+</style>

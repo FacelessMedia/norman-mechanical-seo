@@ -1,0 +1,56 @@
+{
+    "name":  "Water Heater Installation",
+    "slug":  "water-heater-installation",
+    "category":  "water-heaters",
+    "faqs":  [
+                 {
+                     "question":  "How long does water heater installation take?",
+                     "answer":  "Tank water heater installation typically takes 3-4 hours. Tankless installations may take 4-8 hours depending on gas line and venting requirements."
+                 },
+                 {
+                     "question":  "Should I choose tank or tankless?",
+                     "answer":  "We\u0027ll help you decide based on your household size, hot water usage, energy goals, and budget. Both have advantages depending on your needs."
+                 },
+                 {
+                     "question":  "What size water heater do I need?",
+                     "answer":  "We calculate the right size based on your household size, number of bathrooms, and hot water usage patterns to ensure adequate supply."
+                 },
+                 {
+                     "question":  "Do you remove old water heaters?",
+                     "answer":  "Yes, we remove and properly dispose of your old water heater as part of our installation service."
+                 },
+                 {
+                     "question":  "Can you install gas and electric water heaters?",
+                     "answer":  "Yes, we install both gas and electric water heaters, including necessary gas line work, electrical connections, and venting."
+                 },
+                 {
+                     "question":  "Do you install expansion tanks?",
+                     "answer":  "Yes, we install expansion tanks when required by code or recommended for your plumbing system to prevent pressure issues."
+                 },
+                 {
+                     "question":  "What brands do you install?",
+                     "answer":  "We install all major brands including Rheem, Bradford White, AO Smith, Rinnai, Navien, and Noritz, and can recommend the best for your needs."
+                 },
+                 {
+                     "question":  "Do you offer warranties?",
+                     "answer":  "Yes, we provide warranty coverage on both the water heater unit (manufacturer warranty) and our installation labor."
+                 }
+             ],
+    "relatedServices":  [
+                            "water-heater-repair",
+                            "water-tank-installation",
+                            "plumbing-pipe-repair",
+                            "drain-cleaning"
+                        ],
+    "description":  "Professional water heater installation for tank and tankless systems",
+    "problems":  [
+                     "Issue 1",
+                     "Issue 2",
+                     "Issue 3"
+                 ],
+    "solutions":  [
+                      "Solution 1",
+                      "Solution 2",
+                      "Solution 3"
+                  ]
+}

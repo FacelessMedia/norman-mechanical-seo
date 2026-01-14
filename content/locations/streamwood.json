@@ -1,0 +1,72 @@
+{
+  "type": "city",
+  "indexable": true,
+  "name": "Streamwood",
+  "slug": "streamwood",
+  "state": "Illinois",
+  "stateAbbr": "IL",
+  "county": "Cook County",
+  "description": "Reliable plumbing and mechanical services for Streamwood, Illinois residents and businesses",
+  "neighborhoods": [
+    "Streamwood Village Center",
+    "Poplar Creek",
+    "Ontarioville",
+    "Streamwood Estates",
+    "Hoosier Grove",
+    "Park Place",
+    "Streamwood Highlands",
+    "Hanover Woods"
+  ],
+  "landmarks": [
+    "Streamwood Park District",
+    "Poplar Creek Country Club",
+    "Streamwood Oasis",
+    "Hoosier Grove Forest Preserve",
+    "Park Place Shopping Center",
+    "Streamwood Community Center",
+    "Veterans Memorial"
+  ],
+  "localFactors": [
+    "Housing stock from 1960s-1980s often requires plumbing system updates",
+    "Clay soil throughout area causes foundation settling affecting pipes",
+    "Hard water from municipal supply leads to mineral buildup",
+    "Mature trees in established neighborhoods cause root intrusion in sewer lines",
+    "Cold winters require freeze protection for outdoor plumbing systems",
+    "Many homes need sump pumps due to high water table and drainage issues",
+    "Aging cast iron and galvanized pipes in older sections need replacement"
+  ],
+  "city_faqs": [
+    {
+      "question": "Do you provide emergency plumbing in Streamwood?",
+      "answer": "Yes, we offer 24/7 emergency plumbing services throughout Streamwood for burst pipes, water heater failures, sewer backups, and other urgent plumbing problems."
+    },
+    {
+      "question": "How fast can you respond to Streamwood calls?",
+      "answer": "We typically arrive within 60-90 minutes for emergency calls in Streamwood and surrounding Cook County areas, with faster response for critical emergencies."
+    },
+    {
+      "question": "Can you update plumbing in older Streamwood homes?",
+      "answer": "Absolutely. We specialize in modernizing plumbing systems in Streamwood's older homes, including repiping, sewer line replacement, and fixture upgrades."
+    },
+    {
+      "question": "Do you install water softeners?",
+      "answer": "Yes, we install and maintain water softening systems to combat Streamwood's hard water problems, protecting your plumbing fixtures and appliances."
+    },
+    {
+      "question": "Can you help with basement water issues?",
+      "answer": "Yes, we install and service sump pumps, battery backup systems, and drainage solutions to protect Streamwood homes from basement flooding."
+    },
+    {
+      "question": "Do you handle tree root problems in sewer lines?",
+      "answer": "Yes, we use camera inspection and hydro-jetting to clear root intrusions, and provide sewer line repair or replacement when necessary."
+    },
+    {
+      "question": "What areas of Streamwood do you service?",
+      "answer": "We service all Streamwood neighborhoods including Village Center, Poplar Creek, Ontarioville, Streamwood Estates, and surrounding areas."
+    },
+    {
+      "question": "Do you work with commercial properties?",
+      "answer": "Yes, we provide commercial plumbing services for Streamwood businesses, retail establishments, and commercial properties throughout the area."
+    }
+  ]
+}

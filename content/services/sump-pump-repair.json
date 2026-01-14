@@ -1,0 +1,56 @@
+{
+    "name":  "Sump Pump Repair",
+    "slug":  "sump-pump-repair",
+    "category":  "pumps-drainage",
+    "faqs":  [
+                 {
+                     "question":  "Why isn\u0027t my sump pump working?",
+                     "answer":  "Common causes include stuck float switches, clogged discharge lines, burned-out motors, or power issues. We diagnose and fix the problem quickly."
+                 },
+                 {
+                     "question":  "Can you fix a sump pump that runs constantly?",
+                     "answer":  "Yes, we repair pumps that run continuously due to stuck switches, check valve failure, or undersized pumps for the water volume."
+                 },
+                 {
+                     "question":  "Should I repair or replace my sump pump?",
+                     "answer":  "We\u0027ll assess your pump honestly. Simple repairs like switch or check valve replacement are cost-effective, but motor failure often warrants replacement."
+                 },
+                 {
+                     "question":  "How often should sump pumps be serviced?",
+                     "answer":  "We recommend annual maintenance including cleaning, testing, and inspection to ensure reliable operation when you need it most."
+                 },
+                 {
+                     "question":  "Can you fix noisy sump pumps?",
+                     "answer":  "Yes, we diagnose and fix noise issues caused by worn bearings, loose components, or improper installation."
+                 },
+                 {
+                     "question":  "Do you offer emergency sump pump repair?",
+                     "answer":  "Yes, we provide 24/7 emergency repair services for sump pump failures, especially during storms and heavy rain."
+                 },
+                 {
+                     "question":  "Can you repair battery backup systems?",
+                     "answer":  "Yes, we service and repair battery backup systems including battery replacement, charger repair, and system testing."
+                 },
+                 {
+                     "question":  "What if my basement is already flooded?",
+                     "answer":  "We provide emergency response to repair your pump and can bring temporary pumps to remove standing water while making repairs."
+                 }
+             ],
+    "relatedServices":  [
+                            "sump-pump-installation",
+                            "plumbing-leak-repair",
+                            "outdoor-plumbing-system-repair",
+                            "drain-cleaning"
+                        ],
+    "description":  "Expert sump pump repair services to keep your basement dry and protected",
+    "problems":  [
+                     "Issue 1",
+                     "Issue 2",
+                     "Issue 3"
+                 ],
+    "solutions":  [
+                      "Solution 1",
+                      "Solution 2",
+                      "Solution 3"
+                  ]
+}

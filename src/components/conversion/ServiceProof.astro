@@ -1,0 +1,124 @@
+---
+interface Props {
+  serviceCategory: string;
+}
+
+const { serviceCategory } = Astro.props;
+
+const proofBlocks: Record<string, { title: string; points: string[] }> = {
+  'drain-sewer': {
+    title: 'Drain & Sewer Expertise',
+    points: [
+      'Professional hydro-jetting equipment',
+      'Video camera inspection technology',
+      'Trenchless repair capabilities',
+      'Root intrusion specialists'
+    ]
+  },
+  'water-heaters': {
+    title: 'Water Heater Specialists',
+    points: [
+      'Tank and tankless installations',
+      'All major brands serviced',
+      'Same-day replacement available',
+      'Energy-efficient options'
+    ]
+  },
+  'plumbing-repairs': {
+    title: 'Plumbing Repair Experts',
+    points: [
+      'Advanced leak detection',
+      'Pipe repair and replacement',
+      'Emergency response available',
+      'Upfront pricing guaranteed'
+    ]
+  },
+  'fixtures-installations': {
+    title: 'Fixture Installation & Repair',
+    points: [
+      'Professional installation service',
+      'All fixture types handled',
+      'Quality parts and materials',
+      'Warranty on workmanship'
+    ]
+  },
+  'pumps-drainage': {
+    title: 'Pump & Drainage Solutions',
+    points: [
+      'Sump pump specialists',
+      'Battery backup systems',
+      'Basement waterproofing',
+      'Preventive maintenance plans'
+    ]
+  },
+  'garbage-disposals': {
+    title: 'Disposal Services',
+    points: [
+      'All major brands installed',
+      'Quick repair service',
+      'Proper disposal sizing',
+      'Professional installation'
+    ]
+  }
+};
+
+const proof = proofBlocks[serviceCategory];
+---
+
+{proof && (
+  <div class="service-proof">
+    <h3>{proof.title}</h3>
+    <ul class="proof-list">
+      {proof.points.map(point => (
+        <li class="proof-item">
+          <span class="proof-check">✓</span>
+          <span>{point}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+)}
+
+<style>
+  .service-proof {
+    margin: 2.5rem 0;
+    padding: 2rem;
+    background: #f0f7ff;
+    border-radius: 8px;
+    border-left: 4px solid #0066cc;
+  }
+  
+  .service-proof h3 {
+    color: #1a1a1a;
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;
+  }
+  
+  .proof-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  .proof-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.5rem;
+  }
+  
+  .proof-check {
+    color: #0066cc;
+    font-weight: 700;
+    font-size: 1.25rem;
+    flex-shrink: 0;
+  }
+  
+  .proof-item span:last-child {
+    color: #333;
+    line-height: 1.6;
+  }
+</style>

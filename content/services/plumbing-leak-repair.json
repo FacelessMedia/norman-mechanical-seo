@@ -1,0 +1,56 @@
+{
+    "name":  "Plumbing Leak Repair",
+    "slug":  "plumbing-leak-repair",
+    "category":  "plumbing-repairs",
+    "faqs":  [
+                 {
+                     "question":  "How quickly can you fix a leak?",
+                     "answer":  "We provide emergency leak repair services and typically arrive within 60-90 minutes for urgent situations to prevent water damage."
+                 },
+                 {
+                     "question":  "What types of leaks do you repair?",
+                     "answer":  "We repair all types including pipe leaks, fixture leaks, water heater leaks, slab leaks, and hidden leaks behind walls or under floors."
+                 },
+                 {
+                     "question":  "Will you need to cut into my walls?",
+                     "answer":  "We use leak detection equipment to pinpoint exact locations, minimizing demolition. When wall access is needed, we make precise cuts and can recommend drywall repair."
+                 },
+                 {
+                     "question":  "Can you repair leaks without replacing pipes?",
+                     "answer":  "Often yes, using epoxy repair, pipe clamps, or sectional replacement depending on leak severity and pipe condition."
+                 },
+                 {
+                     "question":  "Do you repair slab leaks?",
+                     "answer":  "Yes, we repair slab leaks using various methods including direct access repair, epoxy pipe lining, or rerouting depending on the situation."
+                 },
+                 {
+                     "question":  "What causes plumbing leaks?",
+                     "answer":  "Common causes include corrosion, high water pressure, freezing, age, ground movement, and physical damage from construction or tree roots."
+                 },
+                 {
+                     "question":  "Do you offer emergency leak repair?",
+                     "answer":  "Yes, we provide 24/7 emergency leak repair services to prevent water damage and protect your property."
+                 },
+                 {
+                     "question":  "Is leak repair covered by insurance?",
+                     "answer":  "Many homeowner policies cover sudden leak damage. We provide documentation to help with insurance claims."
+                 }
+             ],
+    "relatedServices":  [
+                            "plumbing-leak-detection",
+                            "plumbing-pipe-repair",
+                            "water-heater-repair",
+                            "sewer-repair"
+                        ],
+    "description":  "Fast and reliable plumbing leak repair services for pipes, fixtures, and water lines",
+    "problems":  [
+                     "Issue 1",
+                     "Issue 2",
+                     "Issue 3"
+                 ],
+    "solutions":  [
+                      "Solution 1",
+                      "Solution 2",
+                      "Solution 3"
+                  ]
+}

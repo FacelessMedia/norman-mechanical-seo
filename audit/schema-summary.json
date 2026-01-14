@@ -1,0 +1,218 @@
+{
+  "totalSchemas": 42,
+  "schemaTypes": 2,
+  "counts": {
+    "Unknown": 24,
+    "Service": 18
+  },
+  "examples": {
+    "Unknown": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Place",
+          "@id": "https://normanmechanicalinc.com/#place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "42.035408",
+            "longitude": " -88.282570"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&amp;query=42.035408, -88.282570",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1201 Gateway Dr",
+            "addressLocality": "Elgin",
+            "addressRegion": "IL",
+            "postalCode": "60124",
+            "addressCountry": "US"
+          }
+        },
+        {
+          "@type": [
+            "Plumber",
+            "Organization"
+          ],
+          "@id": "https://normanmechanicalinc.com/#organization",
+          "name": "Norman Mechanical Inc.",
+          "url": "https://normanmechanicalinc.com",
+          "email": "service@normanmechanicalinc.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1201 Gateway Dr",
+            "addressLocality": "Elgin",
+            "addressRegion": "IL",
+            "postalCode": "60124",
+            "addressCountry": "US"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://normanmechanicalinc.com/#logo",
+            "url": "https://normanmechanicalinc.com/wp-content/uploads/2025/11/NormanLogo.webp",
+            "contentUrl": "https://normanmechanicalinc.com/wp-content/uploads/2025/11/NormanLogo.webp",
+            "caption": "Norman Mechanical Inc.",
+            "inLanguage": "en-US",
+            "width": "640",
+            "height": "253"
+          },
+          "priceRange": "$$",
+          "openingHours": [
+            "Monday,Tuesday,Wednesday,Thursday,Friday 07:00-16:00"
+          ],
+          "legalName": "Norman Mechanical Inc",
+          "location": {
+            "@id": "https://normanmechanicalinc.com/#place"
+          },
+          "image": {
+            "@id": "https://normanmechanicalinc.com/#logo"
+          },
+          "telephone": "+17734667626"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://normanmechanicalinc.com/#website",
+          "url": "https://normanmechanicalinc.com",
+          "name": "Norman Mechanical Inc.",
+          "publisher": {
+            "@id": "https://normanmechanicalinc.com/#organization"
+          },
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://normanmechanicalinc.com/wp-content/uploads/2025/11/NormanLogo.webp",
+          "url": "https://normanmechanicalinc.com/wp-content/uploads/2025/11/NormanLogo.webp",
+          "width": "640",
+          "height": "253",
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://normanmechanicalinc.com/hello-world-3/#webpage",
+          "url": "https://normanmechanicalinc.com/hello-world-3/",
+          "name": "Hello World 3 - Norman Mechanical Inc.",
+          "datePublished": "2025-11-15T20:17:13+00:00",
+          "dateModified": "2025-11-15T20:17:13+00:00",
+          "isPartOf": {
+            "@id": "https://normanmechanicalinc.com/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://normanmechanicalinc.com/wp-content/uploads/2025/11/NormanLogo.webp"
+          },
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://normanmechanicalinc.com/author/ryan/",
+          "name": "Ryan",
+          "url": "https://normanmechanicalinc.com/author/ryan/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/c01159ecc6a5dbb8acf8510a6576b528e1aa2b4e1893709adca4561f29368f8d?s=96&amp;d=mm&amp;r=g",
+            "url": "https://secure.gravatar.com/avatar/c01159ecc6a5dbb8acf8510a6576b528e1aa2b4e1893709adca4561f29368f8d?s=96&amp;d=mm&amp;r=g",
+            "caption": "Ryan",
+            "inLanguage": "en-US"
+          },
+          "sameAs": [
+            "https://wordpress-1206942-6000978.cloudwaysapps.com"
+          ],
+          "worksFor": {
+            "@id": "https://normanmechanicalinc.com/#organization"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Hello World 3 - Norman Mechanical Inc.",
+          "datePublished": "2025-11-15T20:17:13+00:00",
+          "dateModified": "2025-11-15T20:17:13+00:00",
+          "articleSection": "Uncategorized",
+          "author": {
+            "@id": "https://normanmechanicalinc.com/author/ryan/",
+            "name": "Ryan"
+          },
+          "publisher": {
+            "@id": "https://normanmechanicalinc.com/#organization"
+          },
+          "description": "Welcome to Elementor 3",
+          "name": "Hello World 3 - Norman Mechanical Inc.",
+          "@id": "https://normanmechanicalinc.com/hello-world-3/#richSnippet",
+          "isPartOf": {
+            "@id": "https://normanmechanicalinc.com/hello-world-3/#webpage"
+          },
+          "image": {
+            "@id": "https://normanmechanicalinc.com/wp-content/uploads/2025/11/NormanLogo.webp"
+          },
+          "inLanguage": "en-US",
+          "mainEntityOfPage": {
+            "@id": "https://normanmechanicalinc.com/hello-world-3/#webpage"
+          }
+        }
+      ]
+    },
+    "Service": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Water Heaters",
+      "name": "Water Heaters",
+      "provider": {
+        "@type": "Plumber",
+        "name": "Norman Mechanical Inc",
+        "telephone": "+17734667626",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1201 Gateway Dr",
+          "addressLocality": "Elgin",
+          "addressRegion": "IL",
+          "postalCode": "60124",
+          "addressCountry": "US"
+        }
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Elgin",
+          "addressRegion": "IL"
+        },
+        {
+          "@type": "City",
+          "name": "Crystal Lake",
+          "addressRegion": "IL"
+        },
+        {
+          "@type": "City",
+          "name": "St. Charles",
+          "addressRegion": "IL"
+        },
+        {
+          "@type": "City",
+          "name": "Geneva",
+          "addressRegion": "IL"
+        },
+        {
+          "@type": "City",
+          "name": "Arlington Heights",
+          "addressRegion": "IL"
+        },
+        {
+          "@type": "City",
+          "name": "Naperville",
+          "addressRegion": "IL"
+        },
+        {
+          "@type": "City",
+          "name": "Schaumburg",
+          "addressRegion": "IL"
+        },
+        {
+          "@type": "City",
+          "name": "Hoffman Estates",
+          "addressRegion": "IL"
+        },
+        {
+          "@type": "City",
+          "name": "Rolling Meadows",
+          "addressRegion": "IL"
+        }
+      ]
+    }
+  }
+}

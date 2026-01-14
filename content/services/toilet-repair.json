@@ -1,0 +1,52 @@
+{
+    "name":  "Toilet Repair",
+    "slug":  "toilet-repair",
+    "category":  "fixtures-installations",
+    "faqs":  [
+                 {
+                     "question":  "Can you fix a running toilet?",
+                     "answer":  "Yes, we repair running toilets by replacing faulty flappers, fill valves, flush valves, or adjusting water levels to stop water waste."
+                 },
+                 {
+                     "question":  "How much does toilet repair cost?",
+                     "answer":  "Repair costs vary based on the issue, but most repairs are affordable and much less expensive than replacement. We provide upfront pricing."
+                 },
+                 {
+                     "question":  "Should I repair or replace my toilet?",
+                     "answer":  "We\u0027ll assess your toilet\u0027s condition honestly. Simple repairs are often sufficient, but chronic issues or major cracks may warrant replacement."
+                 },
+                 {
+                     "question":  "Can you fix toilet leaks?",
+                     "answer":  "Yes, we repair all types of toilet leaks including base leaks (wax ring), tank leaks, supply line leaks, and internal component leaks."
+                 },
+                 {
+                     "question":  "Do you unclog toilets?",
+                     "answer":  "Yes, we clear toilet clogs using professional equipment including augers and hydro-jetting for stubborn blockages."
+                 },
+                 {
+                     "question":  "Can you fix weak flushing?",
+                     "answer":  "Yes, we diagnose and fix weak flushing caused by clogged rim jets, low water levels, worn flappers, or venting issues."
+                 },
+                 {
+                     "question":  "Do you offer emergency toilet repair?",
+                     "answer":  "Yes, we provide emergency toilet repair services for overflows, major leaks, and other urgent toilet problems."
+                 }
+             ],
+    "relatedServices":  [
+                            "toilet-installation",
+                            "drain-cleaning",
+                            "plumbing-leak-repair",
+                            "sewer-repair"
+                        ],
+    "description":  "Expert toilet repair services for running toilets, leaks, clogs, and malfunctions",
+    "problems":  [
+                     "Issue 1",
+                     "Issue 2",
+                     "Issue 3"
+                 ],
+    "solutions":  [
+                      "Solution 1",
+                      "Solution 2",
+                      "Solution 3"
+                  ]
+}

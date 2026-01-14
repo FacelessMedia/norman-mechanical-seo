@@ -1,0 +1,73 @@
+{
+  "categories": [
+    {
+      "name": "Drain & Sewer",
+      "slug": "drain-sewer",
+      "description": "Drain cleaning, sewer repair, and pipe maintenance services",
+      "revenue_priority": true,
+      "services": [
+        "drain-cleaning",
+        "sewer-cleaning",
+        "sewer-repair",
+        "plumbing-leak-detection",
+        "outdoor-plumbing-system-repair"
+      ]
+    },
+    {
+      "name": "Water Heaters",
+      "slug": "water-heaters",
+      "description": "Water heater installation, repair, and maintenance",
+      "revenue_priority": true,
+      "services": [
+        "water-heater-installation",
+        "water-heater-repair",
+        "water-tank-installation",
+        "water-tank-repair"
+      ]
+    },
+    {
+      "name": "Plumbing Repairs",
+      "slug": "plumbing-repairs",
+      "description": "General plumbing repair and leak fixes",
+      "revenue_priority": true,
+      "services": [
+        "plumbing-pipe-repair",
+        "plumbing-leak-repair"
+      ]
+    },
+    {
+      "name": "Fixtures & Installations",
+      "slug": "fixtures-installations",
+      "description": "Faucet, toilet, and shower installation and repair",
+      "revenue_priority": false,
+      "services": [
+        "faucet-installation",
+        "faucet-repair",
+        "toilet-installation",
+        "toilet-repair",
+        "shower-installation",
+        "shower-repair"
+      ]
+    },
+    {
+      "name": "Pumps & Drainage",
+      "slug": "pumps-drainage",
+      "description": "Sump pump installation and repair services",
+      "revenue_priority": true,
+      "services": [
+        "sump-pump-installation",
+        "sump-pump-repair"
+      ]
+    },
+    {
+      "name": "Garbage Disposals",
+      "slug": "garbage-disposals",
+      "description": "Garbage disposal installation and repair",
+      "revenue_priority": false,
+      "services": [
+        "garbage-disposal-installation",
+        "garbage-disposal-repair"
+      ]
+    }
+  ]
+}

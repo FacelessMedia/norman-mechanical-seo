@@ -1,0 +1,212 @@
+---
+interface Props {
+  business: {
+    name: string;
+    telephone: string;
+    email: string;
+    address: {
+      streetAddress: string;
+      addressLocality: string;
+      addressRegion: string;
+      postalCode: string;
+    };
+  };
+}
+
+const { business } = Astro.props;
+const currentYear = new Date().getFullYear();
+const phoneFormatted = business.telephone.replace(/\+1/, '').replace(/(\d{3})(\d{3})(\d{4})/, '($1) $2-$3');
+---
+
+<footer class="site-footer">
+  <div class="footer-main">
+    <div class="container">
+      <div class="footer-col">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="/services/emergency-service">Emergency Service</a></li>
+          <li><a href="/services/residential-plumbing">Residential Plumbing</a></li>
+          <li><a href="/services/commercial-plumbing">Commercial Plumbing</a></li>
+          <li><a href="/services/water-heaters">Water Heaters</a></li>
+          <li><a href="/services/drain-cleaning">Drain Cleaning</a></li>
+          <li><a href="/services/sewer-line-repair-and-replacement">Sewer Line Repair</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about-us">About Us</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/contact-us">Contact Us</a></li>
+          <li><a href="/privacy-policy">Privacy Policy</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h3>Find Us</h3>
+        <address>
+          <p>
+            <strong>{business.name}</strong><br />
+            {business.address.streetAddress}<br />
+            {business.address.addressLocality}, {business.address.addressRegion} {business.address.postalCode}
+          </p>
+          <p>
+            <strong>Phone:</strong> <a href={`tel:${business.telephone}`}>{phoneFormatted}</a><br />
+            <strong>Email:</strong> <a href={`mailto:${business.email}`}>{business.email}</a>
+          </p>
+        </address>
+      </div>
+      
+      <div class="footer-col">
+        <h3>Need Help Now?</h3>
+        <a href={`tel:${business.telephone}`} class="emergency-btn">
+          Call Us!<br />
+          <span>{phoneFormatted}</span>
+        </a>
+        <p class="license">LICENSE # CFC143083</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; {currentYear}. All rights reserved. {business.name}.</p>
+      <p><a href="/privacy-policy">Privacy Policy</a></p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background: #1a1a1a;
+    color: #e0e0e0;
+  }
+  
+  .footer-main {
+    padding: 4rem 2rem 2rem;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+  }
+  
+  .footer-col h3 {
+    color: white;
+    font-size: 1.25rem;
+    margin: 0 0 1rem;
+    font-weight: 700;
+  }
+  
+  .footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-col li {
+    margin-bottom: 0.75rem;
+  }
+  
+  .footer-col a {
+    color: #e0e0e0;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-col a:hover {
+    color: #269041;
+  }
+  
+  address {
+    font-style: normal;
+    line-height: 1.8;
+  }
+  
+  address p {
+    margin: 0 0 1rem;
+  }
+  
+  address strong {
+    color: white;
+  }
+  
+  .emergency-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #269041;
+    color: white;
+    border-radius: 8px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s;
+    margin-bottom: 1rem;
+  }
+  
+  .emergency-btn:hover {
+    background: #1e7533;
+    transform: translateY(-2px);
+  }
+  
+  .emergency-btn span {
+    font-size: 1.25rem;
+    display: block;
+    margin-top: 0.25rem;
+  }
+  
+  .license {
+    font-size: 0.9rem;
+    color: #999;
+    margin: 1rem 0 0;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #333;
+    padding: 1.5rem 2rem;
+  }
+  
+  .footer-bottom .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #999;
+  }
+  
+  .footer-bottom a {
+    color: #999;
+    text-decoration: none;
+  }
+  
+  .footer-bottom a:hover {
+    color: #269041;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-main {
+      padding: 3rem 1.5rem 1.5rem;
+    }
+    
+    .container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+    
+    .footer-bottom .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+</style>

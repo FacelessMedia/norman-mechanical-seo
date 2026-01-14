@@ -1,0 +1,52 @@
+{
+    "name":  "Water Tank Repair",
+    "slug":  "water-tank-repair",
+    "category":  "water-heaters",
+    "faqs":  [
+                 {
+                     "question":  "Can you repair leaking water tanks?",
+                     "answer":  "We repair tank leaks when possible, but significant corrosion or tank failure typically requires replacement for safety and reliability."
+                 },
+                 {
+                     "question":  "Why is my pressure tank waterlogged?",
+                     "answer":  "Waterlogged tanks occur when the internal bladder fails. We can replace bladders in some tanks or recommend replacement if needed."
+                 },
+                 {
+                     "question":  "Can you fix pressure tank issues?",
+                     "answer":  "Yes, we diagnose and repair pressure problems including bladder failure, air charge issues, and pressure switch problems."
+                 },
+                 {
+                     "question":  "Should I repair or replace my tank?",
+                     "answer":  "We\u0027ll assess your tank honestly. Simple repairs like pressure adjustments are cost-effective, but bladder failure or corrosion often warrant replacement."
+                 },
+                 {
+                     "question":  "How often should tanks be serviced?",
+                     "answer":  "We recommend annual inspection of pressure and expansion tanks to check for leaks, proper pressure, and overall condition."
+                 },
+                 {
+                     "question":  "Can you repair expansion tanks?",
+                     "answer":  "Yes, we service expansion tanks including pressure adjustment and replacement when the bladder fails or the tank corrodes."
+                 },
+                 {
+                     "question":  "Do you offer emergency tank repair?",
+                     "answer":  "Yes, we provide emergency services for tank failures causing water pressure problems or system shutdowns."
+                 }
+             ],
+    "relatedServices":  [
+                            "water-tank-installation",
+                            "water-heater-repair",
+                            "plumbing-leak-repair",
+                            "plumbing-pipe-repair"
+                        ],
+    "description":  "Expert water tank repair services for pressure tanks, expansion tanks, and storage tanks",
+    "problems":  [
+                     "Issue 1",
+                     "Issue 2",
+                     "Issue 3"
+                 ],
+    "solutions":  [
+                      "Solution 1",
+                      "Solution 2",
+                      "Solution 3"
+                  ]
+}

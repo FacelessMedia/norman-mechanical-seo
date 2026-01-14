@@ -1,0 +1,114 @@
+---
+---
+
+<section class="about-section">
+  <div class="container">
+    <div class="content">
+      <h2>Nobody Wows Clients Like We Do!</h2>
+      <p>
+        At Norman Mechanical, we pride ourselves on a level of service that turns first-time clients into lifelong fans. Our experienced plumbers bring not just their tools, but a dedication to going above and beyond, ensuring every plumbing need is met with enthusiasm and expertise. For us, plumbing isn't just about fixing pipes—it's about delivering peace of mind with every turn of the wrench. We understand the importance of trust and reliability in our line of work, which is why our plumbers are committed to exceeding expectations, no matter the size or complexity of the job. Whether it's a dripping faucet or a major plumbing installation, we approach each task with the same zeal, aiming to leave our mark of quality and care.
+      </p>
+      <a href="/contact-us#form" class="btn btn-primary">REQUEST A SERVICE</a>
+    </div>
+    
+    <div class="image">
+      <img src="/images/van-animation.gif" alt="Norman Mechanical service" width="800" height="600" loading="lazy" />
+    </div>
+  </div>
+  
+  <div class="shape-divider" aria-hidden="true">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+      <path d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z"/>
+    </svg>
+  </div>
+</section>
+
+<style>
+  .about-section {
+    position: relative;
+    background: linear-gradient(135deg, #269041 0%, #1e7533 100%);
+    color: white;
+    padding: 5rem 2rem 8rem;
+    overflow: hidden;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+  }
+  
+  .content h2 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin: 0 0 1.5rem;
+    line-height: 1.2;
+  }
+  
+  .content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin: 0 0 2rem;
+    opacity: 0.95;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: white;
+    color: #269041;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  .btn:hover {
+    background: #f8f9fa;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+  
+  .shape-divider {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+  
+  .shape-divider svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 60px;
+  }
+  
+  .shape-divider path {
+    fill: white;
+  }
+  
+  @media (max-width: 968px) {
+    .container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+    
+    .image {
+      order: -1;
+    }
+    
+    .about-section {
+      padding: 4rem 1.5rem 6rem;
+    }
+  }
+</style>

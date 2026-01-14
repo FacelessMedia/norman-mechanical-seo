@@ -1,0 +1,57 @@
+{
+  "images": [
+    {
+      "id": "city-residential-1",
+      "filename": "residential-neighborhood-1.jpg",
+      "category": "residential",
+      "description": "Residential neighborhood street view"
+    },
+    {
+      "id": "city-residential-2",
+      "filename": "residential-neighborhood-2.jpg",
+      "category": "residential",
+      "description": "Suburban homes and streets"
+    },
+    {
+      "id": "city-residential-3",
+      "filename": "residential-neighborhood-3.jpg",
+      "category": "residential",
+      "description": "Local residential area"
+    },
+    {
+      "id": "city-commercial-1",
+      "filename": "commercial-district-1.jpg",
+      "category": "commercial",
+      "description": "Commercial district buildings"
+    },
+    {
+      "id": "city-commercial-2",
+      "filename": "commercial-district-2.jpg",
+      "category": "commercial",
+      "description": "Downtown commercial area"
+    },
+    {
+      "id": "city-landmark-1",
+      "filename": "local-landmark-1.jpg",
+      "category": "landmark",
+      "description": "Local landmark or public space"
+    },
+    {
+      "id": "city-landmark-2",
+      "filename": "local-landmark-2.jpg",
+      "category": "landmark",
+      "description": "Community landmark"
+    },
+    {
+      "id": "city-landmark-3",
+      "filename": "local-landmark-3.jpg",
+      "category": "landmark",
+      "description": "City landmark view"
+    }
+  ],
+  "assignment_rules": {
+    "description": "Images are assigned to cities using deterministic hash-based selection",
+    "method": "City slug hash modulo image pool size",
+    "reuse": "Same images reused across multiple cities based on hash"
+  }
+}

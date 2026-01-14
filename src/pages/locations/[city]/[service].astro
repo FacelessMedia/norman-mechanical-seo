@@ -1,0 +1,281 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { loadBusiness, loadGBP, loadCity, loadService, loadAllCities, loadAllServices } from '../../../lib/content/loaders';
+import { generateServiceSchema } from '../../../lib/content/schema/service';
+import { generateCitySchema } from '../../../lib/content/schema/city';
+import { generateBreadcrumbSchema, buildBreadcrumbs } from '../../../lib/content/schema/breadcrumbs';
+import { generateMetaTags, buildTitle } from '../../../lib/seo/meta';
+import { buildContextualIntro } from '../../../lib/content/internalLinks';
+import { checkPageQuality } from '../../../lib/quality/checkPageQuality';
+import { shouldShowReviews, shouldShowTrustBadges, shouldShowServiceProof, shouldShowCTA, getReviewLimit, getServiceCategorySlug } from '../../../lib/content/conversionRules';
+import ReviewExcerpts from '../../../components/conversion/ReviewExcerpts.astro';
+import TrustBadges from '../../../components/conversion/TrustBadges.astro';
+import LocationCTA from '../../../components/conversion/LocationCTA.astro';
+import ServiceProof from '../../../components/conversion/ServiceProof.astro';
+import ServiceGallery from '../../../components/media/ServiceGallery.astro';
+import { getServiceImages, generateCityServiceImageAlt } from '../../../lib/content/mediaRules';
+
+export async function getStaticPaths() {
+  const allCities = loadAllCities();
+  const allServices = loadAllServices();
+  
+  const paths = [];
+  for (const city of allCities) {
+    if (city.type === 'city') {
+      for (const service of allServices) {
+        paths.push({
+          params: { 
+            city: city.slug,
+            service: service.slug
+          },
+          props: { city, service }
+        });
+      }
+    }
+  }
+  return paths;
+}
+
+const { city, service } = Astro.props;
+const business = loadBusiness();
+const gbp = loadGBP();
+
+const baseUrl = business.url;
+const pageUrl = `${baseUrl}/locations/${city.slug}/${service.slug}`;
+
+const qualityCheck = checkPageQuality(city.slug, service.slug, city, service);
+const shouldNoindex = !qualityCheck.passed || city.indexable === false;
+
+const meta = generateMetaTags(
+  buildTitle([service.name, `${city.name}, ${city.stateAbbr}`], business.name),
+  `${service.description} in ${city.name}, ${city.stateAbbr}. Expert service for ${city.neighborhoods[0]} and surrounding areas.`,
+  `/locations/${city.slug}/${service.slug}`,
+  baseUrl
+);
+
+const breadcrumbs = buildBreadcrumbs(`/locations/${city.slug}/${service.slug}`, `${service.name} in ${city.name}`);
+const schema = [
+  generateServiceSchema(service, business, gbp, pageUrl),
+  generateCitySchema(city, business, pageUrl),
+  generateBreadcrumbSchema(breadcrumbs, baseUrl)
+].filter(Boolean);
+
+const contextualIntro = buildContextualIntro(city.name, service.name, city.localFactors, service.problems);
+
+const pageType = 'city-service';
+const showReviews = shouldShowReviews(pageType);
+const showTrustBadges = shouldShowTrustBadges(pageType);
+const showServiceProof = shouldShowServiceProof(pageType);
+const showCTA = shouldShowCTA(pageType);
+const reviewLimit = getReviewLimit(pageType);
+const serviceCategorySlug = getServiceCategorySlug(service.slug);
+
+const serviceImages = getServiceImages(service.slug, serviceCategorySlug, 2);
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{meta.title}</title>
+  <meta name="description" content={meta.description}>
+  <link rel="canonical" href={meta.canonical}>
+  {shouldNoindex && <meta name="robots" content="noindex,follow">}
+  
+  {schema.map(s => s && (
+    <script type="application/ld+json" set:html={JSON.stringify(s)} />
+  ))}
+</head>
+<body>
+  <Base meta={meta} schema={schema}>
+  <nav class="breadcrumb">
+    <a href="/locations">Locations</a> / 
+    <a href={`/locations/${city.slug}`}>{city.name}</a> / 
+    <span>{service.name}</span>
+  </nav>
+  
+  <h1>{service.name} in {city.name}, {city.stateAbbr}</h1>
+  
+  <div class="intro-box">
+    <p>{contextualIntro}</p>
+  </div>
+  
+  {showTrustBadges && (
+    <TrustBadges 
+      emergencyService={business.emergency_service} 
+      licensed={true} 
+      insured={true} 
+    />
+  )}
+  
+  <section>
+    <h2>Common {service.name} Issues in {city.name}</h2>
+    <ul>
+      {service.problems.map(problem => (
+        <li>{problem}</li>
+      ))}
+    </ul>
+  </section>
+  
+  <section>
+    <h2>Our {service.name} Solutions</h2>
+    <ul>
+      {service.solutions.map(solution => (
+        <li>{solution}</li>
+      ))}
+    </ul>
+  </section>
+  
+  {showServiceProof && serviceCategorySlug && (
+    <ServiceProof serviceCategory={serviceCategorySlug} />
+  )}
+  
+  <ServiceGallery 
+    images={serviceImages} 
+    serviceName={service.name} 
+    cityName={city.name}
+    altTextGenerator={generateCityServiceImageAlt} 
+  />
+  
+  <section>
+    <h2>Local Expertise in {city.name}</h2>
+    <ul>
+      {city.localFactors.map(factor => (
+        <li>{factor}</li>
+      ))}
+    </ul>
+  </section>
+  
+  {showCTA && (
+    <LocationCTA 
+      cityName={city.name} 
+      serviceName={service.name}
+      phoneDisplay={business.phone_display} 
+      phoneE164={business.phone_e164} 
+      emergencyService={business.emergency_service} 
+    />
+  )}
+  
+  {showReviews && gbp.featured_review_excerpts && (
+    <ReviewExcerpts 
+      reviews={gbp.featured_review_excerpts} 
+      limit={reviewLimit} 
+    />
+  )}
+  
+  <section>
+    <h2>Serving These {city.name} Neighborhoods</h2>
+    <ul class="neighborhoods-grid">
+      {city.neighborhoods.map(neighborhood => (
+        <li>{neighborhood}</li>
+      ))}
+    </ul>
+  </section>
+  
+  <div class="related-links">
+    <div>
+      <h3>More Services</h3>
+      <p><a href={`/services/${service.slug}`}>View all {service.name} locations</a></p>
+    </div>
+    <div>
+      <h3>More Locations</h3>
+      <p><a href={`/locations/${city.slug}`}>View all services in {city.name}</a></p>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .breadcrumb {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .breadcrumb a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+  
+  .intro-box {
+    background: #e8f4ff;
+    border-left: 4px solid #0066cc;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  section {
+    margin: 3rem 0;
+  }
+  
+  h2 {
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 0.5rem;
+  }
+  
+  ul {
+    line-height: 1.8;
+  }
+  
+  .neighborhoods-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0.5rem;
+  }
+  
+  .cta-section {
+    background: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .cta-section h2 {
+    border: none;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-section a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .cta-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .related-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #ddd;
+  }
+  
+  .related-links h3 {
+    margin-top: 0;
+    color: #1a1a1a;
+  }
+  
+  .related-links a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .related-links a:hover {
+    text-decoration: underline;
+  }
+</style>
+</Base>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "Norman Mechanical Inc",
+  "legalName": "Norman Mechanical Inc.",
+  "type": "PlumbingService",
+  "tagline": "24/7 Emergency Plumbing & Heating in Chicagoland",
+  "description": "Norman Mechanical Inc. provides 24/7 emergency plumbing and heating services throughout Elgin, Crystal Lake, St. Charles, Geneva, Arlington Heights, Naperville, Schaumburg, Hoffman Estates, Rolling Meadows, and surrounding Chicagoland areas. Family-owned and operated for decades, we're licensed, insured, and committed to honest, upfront pricing.",
+  "telephone": "+17734667626",
+  "phone_display": "(773) 466-7626",
+  "phone_e164": "+17734667626",
+  "address": {
+    "streetAddress": "1201 Gateway Drive",
+    "addressLocality": "Elgin",
+    "addressRegion": "IL",
+    "postalCode": "60124",
+    "addressCountry": "US"
+  },
+  "primary_category": "Plumber",
+  "url": "https://normanmechanicalinc.com/",
+  "image": "/images/logo.png",
+  "logo": "/images/logo.png",
+  "priceRange": "$$",
+  "openingHours": "Mo-Fr 07:00-16:00",
+  "emergency_service": true,
+  "social": {
+    "facebook": "http://facebook.com/normanmechanicalinc"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "images": [
+    {
+      "id": "drain-sewer-1",
+      "filename": "drain-cleaning-work.jpg",
+      "category": "drain-sewer",
+      "description": "Drain cleaning equipment and work"
+    },
+    {
+      "id": "drain-sewer-2",
+      "filename": "sewer-line-repair.jpg",
+      "category": "drain-sewer",
+      "description": "Sewer line repair process"
+    },
+    {
+      "id": "drain-sewer-3",
+      "filename": "hydro-jetting-equipment.jpg",
+      "category": "drain-sewer",
+      "description": "Professional hydro-jetting equipment"
+    },
+    {
+      "id": "water-heater-1",
+      "filename": "water-heater-installation.jpg",
+      "category": "water-heaters",
+      "description": "Water heater installation work"
+    },
+    {
+      "id": "water-heater-2",
+      "filename": "tankless-water-heater.jpg",
+      "category": "water-heaters",
+      "description": "Tankless water heater unit"
+    },
+    {
+      "id": "water-heater-3",
+      "filename": "water-heater-repair.jpg",
+      "category": "water-heaters",
+      "description": "Water heater repair service"
+    },
+    {
+      "id": "plumbing-repair-1",
+      "filename": "pipe-repair-work.jpg",
+      "category": "plumbing-repairs",
+      "description": "Pipe repair and replacement"
+    },
+    {
+      "id": "plumbing-repair-2",
+      "filename": "leak-detection-equipment.jpg",
+      "category": "plumbing-repairs",
+      "description": "Leak detection equipment in use"
+    },
+    {
+      "id": "plumbing-repair-3",
+      "filename": "plumbing-repair-tools.jpg",
+      "category": "plumbing-repairs",
+      "description": "Professional plumbing repair tools"
+    },
+    {
+      "id": "fixture-1",
+      "filename": "faucet-installation.jpg",
+      "category": "fixtures-installations",
+      "description": "Faucet installation work"
+    },
+    {
+      "id": "fixture-2",
+      "filename": "toilet-installation.jpg",
+      "category": "fixtures-installations",
+      "description": "Toilet installation service"
+    },
+    {
+      "id": "fixture-3",
+      "filename": "shower-installation.jpg",
+      "category": "fixtures-installations",
+      "description": "Shower fixture installation"
+    },
+    {
+      "id": "pump-1",
+      "filename": "sump-pump-installation.jpg",
+      "category": "pumps-drainage",
+      "description": "Sump pump installation work"
+    },
+    {
+      "id": "pump-2",
+      "filename": "sump-pump-repair.jpg",
+      "category": "pumps-drainage",
+      "description": "Sump pump repair service"
+    },
+    {
+      "id": "pump-3",
+      "filename": "drainage-system-work.jpg",
+      "category": "pumps-drainage",
+      "description": "Drainage system installation"
+    },
+    {
+      "id": "disposal-1",
+      "filename": "garbage-disposal-installation.jpg",
+      "category": "garbage-disposals",
+      "description": "Garbage disposal installation"
+    },
+    {
+      "id": "disposal-2",
+      "filename": "garbage-disposal-repair.jpg",
+      "category": "garbage-disposals",
+      "description": "Garbage disposal repair work"
+    }
+  ],
+  "assignment_rules": {
+    "description": "Images are assigned to services based on service category mapping",
+    "method": "Service slug maps to category, category determines image pool",
+    "reuse": "Same category images reused across related services"
+  }
+}

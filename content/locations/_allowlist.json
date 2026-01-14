@@ -1,0 +1,17 @@
+{
+  "allowed_state": "IL",
+  "allowed_cities": [
+    "elgin",
+    "naperville",
+    "schaumburg",
+    "arlington-heights",
+    "hoffman-estates",
+    "rolling-meadows",
+    "crystal-lake",
+    "st-charles",
+    "geneva",
+    "palatine",
+    "bartlett",
+    "streamwood"
+  ]
+}

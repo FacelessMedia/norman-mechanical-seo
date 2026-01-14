@@ -1,0 +1,68 @@
+{
+  "type": "city",
+  "indexable": true,
+  "name": "Geneva",
+  "slug": "geneva",
+  "state": "Illinois",
+  "stateAbbr": "IL",
+  "county": "Kane County",
+  "description": "Reliable plumbing and mechanical services for Geneva, Illinois residents and businesses",
+  "neighborhoods": [
+    "Downtown Geneva",
+    "Mill Creek",
+    "Briar Creek",
+    "Williamsburg",
+    "Geneva Commons",
+    "Stone Creek",
+    "Foxfield",
+    "Prestwick"
+  ],
+  "landmarks": [
+    "Fox River Trail",
+    "Island Park",
+    "Wheeler Park",
+    "Geneva History Museum",
+    "Third Street Historic District",
+    "Fabyan Forest Preserve",
+    "Geneva Metra Station"
+  ],
+  "localFactors": [
+    "Fox River location creates drainage and flood prevention needs",
+    "Historic downtown requires careful plumbing work in older structures",
+    "Clay-heavy soil causes foundation movement affecting plumbing systems",
+    "Hard water from municipal sources leads to mineral deposits",
+    "Mature tree canopy throughout city results in root intrusion issues",
+    "Cold winters stress outdoor plumbing and require freeze protection",
+    "Many homes built in 1960s-1980s need plumbing system updates"
+  ],
+  "city_faqs": [
+    {
+      "question": "Do you provide emergency plumbing services in Geneva?",
+      "answer": "Yes, we offer 24/7 emergency plumbing services throughout Geneva, including frozen pipe repair, burst line response, and water heater failures."
+    },
+    {
+      "question": "Can you work on historic homes in downtown Geneva?",
+      "answer": "Absolutely. We have extensive experience with Geneva's historic properties, providing sensitive plumbing updates that preserve architectural integrity while modernizing systems."
+    },
+    {
+      "question": "How do you handle Fox River flooding concerns?",
+      "answer": "We install sump pumps, backup systems, and backwater valves to protect Geneva homes from Fox River flooding and high groundwater levels common in the area."
+    },
+    {
+      "question": "What's your typical response time?",
+      "answer": "We typically arrive within 60-90 minutes for emergency calls in Geneva and surrounding Kane County areas, with faster response for critical situations."
+    },
+    {
+      "question": "Do you offer water quality solutions?",
+      "answer": "Yes, we install water softeners and filtration systems to address Geneva's hard water issues, protecting your plumbing fixtures and improving water quality."
+    },
+    {
+      "question": "Can you help with sewer line problems?",
+      "answer": "Yes, we provide complete sewer line services including camera inspection, root removal, repair, and replacement for Geneva properties experiencing drainage issues."
+    },
+    {
+      "question": "Do you service all Geneva neighborhoods?",
+      "answer": "Yes, we provide plumbing services throughout Geneva including Downtown, Mill Creek, Briar Creek, Williamsburg, and all surrounding neighborhoods."
+    }
+  ]
+}

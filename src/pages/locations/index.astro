@@ -1,0 +1,116 @@
+---
+import Base from '../../layouts/Base.astro';
+import { loadBusiness, loadAllCities } from '../../lib/content/loaders';
+import { generateMetaTags, buildTitle } from '../../lib/seo/meta';
+import { generateBreadcrumbSchema, buildBreadcrumbs } from '../../lib/content/schema/breadcrumbs';
+import { getCityLinks } from '../../lib/content/internalLinks';
+
+const business = loadBusiness();
+const allCitiesRaw = loadAllCities();
+const allCities = allCitiesRaw.filter(c => c.type === 'city');
+
+const baseUrl = business.url;
+const pageUrl = `${baseUrl}/locations`;
+
+const meta = generateMetaTags(
+  buildTitle(['Service Areas'], business.name),
+  `We provide professional plumbing services throughout ${allCities.map(c => c.name).join(', ')} and surrounding areas`,
+  '/locations',
+  baseUrl
+);
+
+const breadcrumbs = buildBreadcrumbs('/locations', 'Locations');
+const schema = [
+  generateBreadcrumbSchema(breadcrumbs, baseUrl)
+];
+
+const cityLinks = getCityLinks(allCities);
+---
+
+<Base meta={meta} schema={schema}>
+  <h1>Service Areas</h1>
+  <p class="lead">Professional plumbing and mechanical services throughout the Chicagoland area</p>
+  
+  <div class="cities-grid">
+    {allCities.map(city => (
+      <article class="city-card">
+        <h2><a href={`/locations/${city.slug}`}>{city.name}, {city.stateAbbr}</a></h2>
+        <p>{city.description}</p>
+        {city.neighborhoods && city.neighborhoods.length > 0 && (
+          <div class="neighborhoods">
+            <strong>Neighborhoods:</strong>
+            <span>{city.neighborhoods.slice(0, 3).join(', ')}</span>
+            {city.neighborhoods.length > 3 && <span> and more</span>}
+          </div>
+        )}
+        <a href={`/locations/${city.slug}`} class="cta">View Services in {city.name} →</a>
+      </article>
+    ))}
+  </div>
+</Base>
+
+<style>
+  .lead {
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  .cities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .city-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    background: white;
+  }
+  
+  .city-card h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+  
+  .city-card h2 a {
+    color: #1a1a1a;
+    text-decoration: none;
+  }
+  
+  .city-card h2 a:hover {
+    color: #0066cc;
+  }
+  
+  .city-card p {
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .neighborhoods {
+    margin: 1rem 0;
+    padding: 0.75rem;
+    background: #f9f9f9;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+  
+  .neighborhoods strong {
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+  
+  .cta {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .cta:hover {
+    text-decoration: underline;
+  }
+</style>

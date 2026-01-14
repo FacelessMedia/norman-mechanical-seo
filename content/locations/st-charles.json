@@ -1,0 +1,64 @@
+{
+  "type": "city",
+  "indexable": true,
+  "name": "St. Charles",
+  "slug": "st-charles",
+  "state": "Illinois",
+  "stateAbbr": "IL",
+  "county": "Kane County",
+  "description": "Expert plumbing and mechanical services for St. Charles, Illinois homes and businesses",
+  "neighborhoods": [
+    "Downtown St. Charles",
+    "Pheasant Run",
+    "Foxfield",
+    "Charlestowne Mall Area",
+    "Prairie Landing",
+    "Dunham Woods",
+    "Mill Creek",
+    "Campton Hills"
+  ],
+  "landmarks": [
+    "Fox River",
+    "Pottawatomie Park",
+    "Arcada Theatre",
+    "St. Charles Historic District",
+    "Charlestowne Mall",
+    "Mount St. Mary Park",
+    "Baker Memorial United Methodist Church"
+  ],
+  "localFactors": [
+    "Fox River proximity creates unique drainage and flooding concerns",
+    "Historic downtown buildings require specialized plumbing expertise",
+    "Clay soil common throughout area leads to foundation settling and pipe stress",
+    "Hard water from municipal supply causes fixture and appliance wear",
+    "Older neighborhoods have aging cast iron and galvanized pipes",
+    "Freeze-thaw cycles impact outdoor plumbing and sewer laterals",
+    "Tree-lined streets result in root intrusion into sewer lines"
+  ],
+  "city_faqs": [
+    {
+      "question": "Do you service historic buildings in downtown St. Charles?",
+      "answer": "Yes, we have extensive experience working with St. Charles' historic properties, understanding the unique plumbing challenges of older buildings while respecting their character."
+    },
+    {
+      "question": "Can you help with Fox River flooding issues?",
+      "answer": "Absolutely. We install and maintain sump pumps, backwater valves, and drainage systems to protect St. Charles homes from Fox River flooding and high groundwater."
+    },
+    {
+      "question": "What's your response time in St. Charles?",
+      "answer": "We typically arrive within 60-90 minutes for emergency plumbing calls throughout St. Charles and Kane County, with 24/7 availability for urgent situations."
+    },
+    {
+      "question": "Do you work with older plumbing systems?",
+      "answer": "Yes, we specialize in updating aging plumbing in St. Charles' older neighborhoods, including cast iron sewer line replacement, galvanized pipe repiping, and fixture modernization."
+    },
+    {
+      "question": "Can you address hard water problems?",
+      "answer": "Yes, we install water softening systems and filtration equipment to combat St. Charles' hard water, extending the life of your plumbing fixtures and appliances."
+    },
+    {
+      "question": "Do you offer commercial plumbing services?",
+      "answer": "Yes, we provide comprehensive commercial plumbing services for St. Charles businesses, restaurants, and retail establishments throughout the downtown and Charlestowne Mall areas."
+    }
+  ]
+}
