@@ -49,6 +49,20 @@ const business = loadBusiness();
 </html>
 
 <style is:global>
+  :root {
+    --header-offset: 160px;
+    --page-pad-x: 2rem;
+    --page-pad-b: 3rem;
+  }
+  
+  @media (max-width: 768px) {
+    :root {
+      --header-offset: 120px;
+      --page-pad-x: 1.5rem;
+      --page-pad-b: 2rem;
+    }
+  }
+  
   * {
     box-sizing: border-box;
   }
@@ -64,7 +78,7 @@ const business = loadBusiness();
   main {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 140px 2rem 3rem;
+    padding: var(--header-offset) var(--page-pad-x) var(--page-pad-b);
     min-height: calc(100vh - 400px);
   }
   
@@ -75,11 +89,5 @@ const business = loadBusiness();
   
   a {
     color: inherit;
-  }
-  
-  @media (max-width: 768px) {
-    main {
-      padding: 100px 1.5rem 2rem;
-    }
   }
 </style>

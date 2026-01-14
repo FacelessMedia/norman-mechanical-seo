@@ -11,9 +11,11 @@
     "validate": "npm run lint:geo && tsx scripts/validate-content.ts",
     "quality-gates": "tsx scripts/quality-gates.ts",
     "audit": "tsx scripts/audit-site.ts",
+    "visual:qa": "tsx scripts/visual-qa.ts",
     "astro": "astro"
   },
   "devDependencies": {
+    "@playwright/test": "^1.57.0",
     "@types/node": "^20.11.0",
     "cheerio": "^1.0.0-rc.12",
     "robots-parser": "^3.0.1",
