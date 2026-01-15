@@ -37,7 +37,18 @@ interface QAResult {
   screenshotPath: string;
 }
 
+interface Network404 {
+  pageRoute: string;
+  viewport: string;
+  requestUrl: string;
+  requestPath: string;
+  status: number;
+  resourceType: string;
+  referrer?: string;
+}
+
 const results: QAResult[] = [];
+const network404s: Network404[] = [];
 
 async function checkHorizontalScroll(page: any): Promise<boolean> {
   return await page.evaluate(() => {
@@ -81,6 +92,25 @@ async function testPage(
   page.on('console', (msg: any) => {
     if (msg.type() === 'error') {
       consoleErrors.push(msg.text());
+    }
+  });
+  
+  // Track 404 network requests
+  page.on('response', async (response: any) => {
+    if (response.status() === 404) {
+      const request = response.request();
+      const requestUrl = request.url();
+      const parsedUrl = new URL(requestUrl);
+      
+      network404s.push({
+        pageRoute: url,
+        viewport: `${breakpoint.name} (${breakpoint.width}×${breakpoint.height})`,
+        requestUrl: requestUrl,
+        requestPath: parsedUrl.pathname,
+        status: 404,
+        resourceType: request.resourceType(),
+        referrer: request.headers()['referer'] || undefined,
+      });
     }
   });
   
@@ -228,8 +258,13 @@ function generateReport() {
   const reportPath = path.join(QA_OUTPUT_DIR, 'QA-REPORT.md');
   fs.writeFileSync(reportPath, report);
   
+  // Save network 404s to JSON
+  const network404Path = path.join(QA_OUTPUT_DIR, 'network-404s.json');
+  fs.writeFileSync(network404Path, JSON.stringify(network404s, null, 2));
+  
   console.log(report);
   console.log(`\n✅ Report saved to: ${reportPath}`);
+  console.log(`✅ Network 404s saved to: ${network404Path} (${network404s.length} requests)`);
 }
 
 interface Issue {
